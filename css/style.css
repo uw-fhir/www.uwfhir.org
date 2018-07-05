@@ -22,6 +22,9 @@
   font-family: "Raleway", Helvetica, Arial, sans-serif;
 }
 
+.about #organization ul {
+  padding-left: 0;
+}
 .about #organization ul li {
   text-align: center;
   list-style: none;
