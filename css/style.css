@@ -159,7 +159,7 @@ a:hover {
 .hero {
   display: table;
   position: relative;
-  background-image: url(../img/seattleSkyline.jpg);
+  background-image: url(../img/seattleSkyline_small.jpg);
   background-size: cover;
   padding: 150px 0;
   color: #fff;
