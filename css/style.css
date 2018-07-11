@@ -1,3 +1,16 @@
+#downArrow {
+    position: absolute;
+    width: inherit;
+    left: 0;
+    bottom: 10px;
+}
+
+#downArrow i {
+  font-size: 3.5rem;
+}
+
+
+
 .about .about-section hr {
   margin: 7vh 0;
 }
