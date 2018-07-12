@@ -1,3 +1,24 @@
+
+#contact .info.fhir-contacts {
+
+}
+
+#contact .info.fhir-contacts a {
+
+  color: rgb(28, 179, 209);
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+#contact .info.fhir-contacts a:hover {
+  color: rgb(23, 157, 184)
+}
+
+#contact .info.fhir-contacts a i{
+  padding-right: 10px;
+}
+
+
 #downArrow {
     position: absolute;
     width: inherit;
@@ -42,6 +63,8 @@
   text-align: center;
   list-style: none;
 }
+
+
 /*
 
     Theme Name: Bell
@@ -816,6 +839,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact h2 {
   font-family: "Raleway", Helvetica, Arial, sans-serif;
   color: #199EB8;
+  margin-bottom:40px;
 }
 
 #contact .info i {
