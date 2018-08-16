@@ -130,6 +130,21 @@ a {
   color: #fff;
 }
 
+.btn-inactive {
+  background-color: #d3d3d3;
+  color: #fff;
+}
+
+.btn-inactive:hover {
+  background-color: #d3d3d3;
+  color: #fff;
+}
+
+.btn-inactive:active {
+  background-color: #d3d3d3;
+  color: #fff;
+}
+
 .btn-ghost {
   border: 3px solid #fff;
   background-color: transparent;
