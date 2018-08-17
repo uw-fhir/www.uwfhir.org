@@ -44,6 +44,10 @@
   padding-right: 5vw;
 }
 
+.about .about-section p{ 
+  text-align: left;
+}
+
 .about .about-section ul {
   text-align: left;
 }
@@ -54,6 +58,13 @@
   line-height: 1.55;
   color: #333;
   font-family: "Raleway", Helvetica, Arial, sans-serif;
+}
+
+.about .about-section #attendees {
+  font-size: 1.2rem;
+  text-align: left;
+  line-height: 1.55;
+  color: #333;
 }
 
 .about #organization ul {
