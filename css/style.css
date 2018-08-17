@@ -32,6 +32,24 @@
 
 
 
+table, th, td {
+  border: 1px black solid;
+  border-collapse: collapse;
+  padding: 10px;
+  min-width: 12em;
+}
+
+tr#mainheader {
+  background-color: rgb(0, 76, 91);
+  color: #d3d3d3;
+  font-size: 1.5em;
+}
+
+tr#subheader {
+  background-color: rgb(28, 179, 209);
+  font-size: 1.2em;
+}
+
 .about .about-section hr {
   margin: 7vh 0;
 }
@@ -314,6 +332,7 @@ a:hover {
 #header .social-nav a:hover {
   color: rgba(255, 255, 255, 0.75);
 }
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
