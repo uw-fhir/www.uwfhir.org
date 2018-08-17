@@ -39,6 +39,10 @@ table, th, td {
   min-width: 12em;
 }
 
+table li {
+  font-size: 1em;
+}
+
 tr#mainheader {
   background-color: rgb(0, 76, 91);
   color: #d3d3d3;
