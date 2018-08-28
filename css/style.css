@@ -64,13 +64,11 @@
   font-size: 3.5rem;
 }
 
-
-
 table, th, td {
   border: 1px black solid;
   border-collapse: collapse;
   padding: 10px;
-  min-width: 12em;
+  min-width: 8em;
 }
 
 table li {
@@ -86,6 +84,11 @@ tr#mainheader {
 tr#subheader {
   background-color: rgb(28, 179, 209);
   font-size: 1.2em;
+}
+
+tr#agenda_breaks {
+  background-color: rgb(201, 255, 255);
+  font-size: 1em;
 }
 
 .about .about-section hr {
