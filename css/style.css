@@ -3,6 +3,11 @@
   font-size: 1rem;
 }
 
+.agenda-sep {
+  font-size: 4px;
+  line-height: 8px;
+}
+
 .agenda-name {
   font-weight: bold;
   color: #333;
@@ -10,6 +15,7 @@
 }
 
 .agenda-title {
+  padding: 3px 0;
   font-weight: normal;
   color: #6c757d;
   font-size: .9rem;
