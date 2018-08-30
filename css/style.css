@@ -3,6 +3,26 @@
   font-size: 1rem;
 }
 
+.agenda-name {
+  font-weight: bold;
+  color: #333;
+}
+
+.agenda-title {
+  font-weight: normal;
+  color: #6c757d;
+  font-size: .9rem;
+
+}
+
+.agenda-detail {
+  text-align: left;
+}
+
+.agenda-detail h6 {
+  text-align: center;
+}
+
 /* Logo Strip Styles */
 .logo-strip {
   margin-top: 30px;
@@ -168,11 +188,20 @@ h2 {
 }
 
 h3 {
-  font-size: 24px;
+  /* font-size: 24px; */
 }
 
 h4 {
   font-size: 18px;
+}
+
+@media (max-width: 61.9em) {
+  h3 {
+    font-size: 1.75rem;
+  }
+}
+h6 {
+  font-size: 1.2rem;
 }
 
 /* ==================================================
@@ -1093,7 +1122,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-bottom: 25px;
   }
   h3 {
-    font-size: 14px;
+    /* font-size: 14px; */
   }
   .hero {
     padding: 75px 0;
