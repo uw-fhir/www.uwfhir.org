@@ -30,7 +30,14 @@
 		}
 }
 
+.tagline .waitlist {
+  font-size: 1.2rem;
+}
 
+.tagline a {
+  color: #4b2e83;
+  font-weight: 500;
+}
 
 /* About Section */
 .about .about-section li.small {
@@ -82,19 +89,6 @@
   margin: 0 auto;
   padding: 10px;
 }
-
-@media (min-width: 576px) { 
-  .logo-strip .logo-container {
-    height: 160px;
-    margin-bottom: 0;
-
-  }
-
-  .logo-strip .logo-container img{
-    width: 100%;
-  }
-}
-
 
 
 
@@ -343,6 +337,7 @@ a:hover {
   display: table;
   position: relative;
   background-image: url(../img/seattleSkyline_small.jpg);
+  background-position: center;
   background-size: cover;
   padding: 150px 0;
   color: #fff;
@@ -383,6 +378,7 @@ a:hover {
   font-family: "Raleway", Helvetica, Arial, sans-serif;
   font-size: 26px;
   margin: 45px 0 75px 0;
+  
   color: #fff;
 }
 
@@ -419,7 +415,7 @@ a:hover {
   max-height: 40px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
   #header {
     height: 50px;
   }
@@ -434,6 +430,19 @@ a:hover {
     max-height: 30px;
   }
 }
+
+@media (min-width: 992px) { 
+  .logo-strip .logo-container {
+    height: 160px;
+    margin-bottom: 0;
+
+  }
+
+  .logo-strip .logo-container img{
+    width: 100%;
+  }
+}
+
 
 #header .social-nav {
   margin-top: 15px;
