@@ -347,7 +347,7 @@ a:hover {
   background-image: url(../img/seattleSkyline_small.jpg);
   background-position: center;
   background-size: cover;
-  padding: 150px 0;
+  padding: 150px 0 60px 0;
   color: #fff;
   width: 100%;
   height: 100vh;
