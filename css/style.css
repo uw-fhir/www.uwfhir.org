@@ -35,8 +35,12 @@
 }
 
 .tagline a {
-  color: #4b2e83;
+  color: #199EB8;
   font-weight: 500;
+}
+
+.tagline a:hover {
+  color: #1c8094;
 }
 
 /* About Section */
@@ -258,6 +262,10 @@ a {
   color: #fff;
   padding: 15px 45px;
   border-radius: 50px;
+}
+
+.btn-primary {
+  border-color: #199EB8;
 }
 
 .btn:hover {
