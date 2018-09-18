@@ -78,35 +78,35 @@ A CDS Service that interacts with the HSPC Sandbox / CDS Hooks Sandbox to provid
 ### Tutorials
 
 #### Cerner
-https://github.com/cerner/bunsen-tutorial
-https://github.com/cerner/smart-on-fhir-tutorial
-https://github.com/cerner/cds-services-tutorial
+- https://github.com/cerner/bunsen-tutorial
+- https://github.com/cerner/smart-on-fhir-tutorial
+- https://github.com/cerner/cds-services-tutorial
 
 #### FHIR Crucible
-https://github.com/fhir-crucible
+- https://github.com/fhir-crucible
 
 #### UW
-https://psbrandt.io/fhir/
-https://github.com/uwbhi/CDS-Hooks-Tutorial/blob/master/tutorial.md
+- https://psbrandt.io/fhir/
+- https://github.com/uwbhi/CDS-Hooks-Tutorial/blob/master/tutorial.md
 
 #### HSPC
-https://healthservices.atlassian.net/wiki/spaces/HSPC/pages/39911491/CDS+Hooks+Walk-through
-https://healthservices.atlassian.net/wiki/spaces/HSPC/pages/25133059/Java+Client+Tutorial+Profiles+and+Resource+Extensions
-https://healthservices.atlassian.net/wiki/spaces/HSPC/pages/15171628/OAuth2+Authorization+Walk-through
+- https://healthservices.atlassian.net/wiki/spaces/HSPC/pages/39911491/CDS+Hooks+Walk-through
+- https://healthservices.atlassian.net/wiki/spaces/HSPC/pages/25133059/Java+Client+Tutorial+Profiles+and+Resource+Extensions
+- https://healthservices.atlassian.net/wiki/spaces/HSPC/pages/15171628/OAuth2+Authorization+Walk-through
 
 
 ### Sandboxes & App Galleries
-http://docs.smarthealthit.org/sandbox/
-https://apps.smarthealthit.org/
-https://sandbox.hspconsortium.org/
-https://gallery.hspconsortium.org/
+- http://docs.smarthealthit.org/sandbox/
+- https://apps.smarthealthit.org/
+- https://sandbox.hspconsortium.org/
+- https://gallery.hspconsortium.org/
 
-https://code.cerner.com/en/apps
-https://fhir.cerner.com/millennium/dstu2/#open-sandbox
+- https://code.cerner.com/en/apps
+- https://fhir.cerner.com/millennium/dstu2/#open-sandbox
 
-https://developer.allscripts.com/content/fhir/content/FHIR_Sandboxes/
+- https://developer.allscripts.com/content/fhir/content/FHIR_Sandboxes/
 
-https://open.epic.com/AppExchange/Sandbox
-https://apporchard.epic.com/ (requires applying for login)
+- https://open.epic.com/AppExchange/Sandbox
+- https://apporchard.epic.com/ (requires applying for login)
 
 
