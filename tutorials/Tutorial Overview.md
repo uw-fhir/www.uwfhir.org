@@ -29,8 +29,6 @@ If you are getting an error saying Anaconda can't find the `fhirclient` module, 
 2. SMART app that implements an app idea from below [some experience/scalable]
 3. CDS hooks using our or the Cerner tutorial (or a combination) [medium experience]
 
-
-
 ## Tutorial Possible Themes
 
 ### incorporating external data/functionality
