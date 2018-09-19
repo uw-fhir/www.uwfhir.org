@@ -1,7 +1,13 @@
 # Tutorials Plan
 
-## System Setup
+## Prerequesites
+**Install these on your system before the tutorials!**
 
+- Anaconda: https://docs.anaconda.com/anaconda/install/
+- A public github account: got to www.github.com and create an account if you don't already have one!
+- 
+
+### Test Your System
 
 ### Troubleshooting
 If you are getting an error saying Anaconda can't find the `fhirclient` module, you have to make sure you're installing the package in a way that the jupyter environment can load it. If doing a global `pip install fhirclient` does not work:
@@ -9,6 +15,7 @@ If you are getting an error saying Anaconda can't find the `fhirclient` module, 
 1. Open your `Anaconda Prompt`. 
 2. Type `jupyter console`.
 3. Paste the following code to make sure fhirclient (or any other missing packages) are installed where Anaconda can access it.
+   
         ```
         # Install a pip package in the current Jupyter kernel
         import sys
@@ -57,6 +64,11 @@ A Jupyter notebook that illustrates:
 1. Grabbing FHIR resources from a given FHIR endpoint. 
 2. Manipulating data in some way (internally/externally) to produce interesting outcome
 
+#### Based On
+- Framingham Risk Calculator Jupyter Notebook
+
+
+
 #### Teaching Objectives
 - Mapping FHIR Resources to a real-world tool / API
 
@@ -73,6 +85,10 @@ A client-side (uses javascript client?) or server-side? (uses python client) app
 #### Required Knowledge
 
 #### Resources
+
+#### Based On
+- https://github.com/cerner/smart-on-fhir-tutorial
+
 
 ### Level Three
 A CDS Service that interacts with the HSPC Sandbox / CDS Hooks Sandbox to provide clinical decision support / public health advisories / anything that might be relevant to the subject given some triggers. 

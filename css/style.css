@@ -30,8 +30,20 @@
 		}
 }
 
+.tagline #location {
+  padding-bottom: 10px;
+}
+
 .tagline .waitlist {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
+}
+
+.tagline .waitlist-notice {
+  line-height: 15px;  
+}
+
+.tagline .day {
+  padding-bottom: 18px;
 }
 
 .tagline a {
@@ -384,9 +396,8 @@ a:hover {
 
 .tagline {
   font-family: "Raleway", Helvetica, Arial, sans-serif;
-  font-size: 26px;
-  margin: 45px 0 75px 0;
-  
+  font-size: 30px;
+  margin: 45px 0 45px 0;
   color: #fff;
 }
 
