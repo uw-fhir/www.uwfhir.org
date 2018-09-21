@@ -39,17 +39,32 @@
     <link href="../css/style.css" rel="stylesheet">
 
     <style>
+        .hero {
+            height: 3vh;
+        }
+        .tutorials {
+            /* background-image: url(../../img/seattleSkyline_small.jpg); */
+            /* background-position: center; */
+            /* background-size: cover; */
+        }
+        .markdown {
+            padding-top: 0px;
+        }
         .markdown-body {
             box-sizing: border-box;
             min-width: 200px;
-            max-width: inherit;
-            margin: 30px auto;
-            padding: 45px;
+            max-width: 1200px;
+            margin: 10px auto 10px auto;
+            padding: 0 40px 30px 40px;
             background: white;
             text-align: left;
+            border-radius: 25px;
         }
     
-        @media (max-width: 767px) {
+        @media (max-width: 61.9em) {
+            .hero {
+                padding: 20px 10px 0 10px;
+            }
             .markdown-body {
                 padding: 15px;
             }
@@ -71,20 +86,27 @@
   ======================================================= -->
 </head>
 
+
 <body>
-    <section class="rsvp hero">
-        <div class="container">
-            <div class="row">
-              <div class='col'>
-                  <h1>UW FHIR<sup style="font-size: 0.6em;">&#174</sup> Tutorials</h1>
-                  <h2 class='day'>Sunday, Sep 23, 2018</h2>
-                  <h3>Location: <a target='_blank' href='https://www.uwmedicine.org/research/sites-facilities/slu/maps-contacts'>UW Medicine South Lake Union - Building C</a></h3>
-                  <article id='md-document' class='markdown-body'></article>
-              </div>  
+    <section class="hero">
+        <div class="container text-center">
+            <h1>UW FHIR<sup style="font-size: 0.3em; vertical-align: super;">&#174</sup> Tutorials</h1>
+            <div class="tagline">
+                <h2 class='day'>Sunday, Sep 23, 2018</h2>
+                <div id='location'>Location: <a target='_blank' href='https://www.uwmedicine.org/research/sites-facilities/slu/maps-contacts'>UW Medicine South Lake Union - Building C</a></div>
             </div>
-        </div>  
+        </div>
     </section>  
 
+    <section class='markdown'>
+        <div class='container'>
+            <div class='row'>
+                <div class='col'>
+                    <article id='md-document' class='markdown-body'></article>
+                </div>
+            </div>
+        </div>
+    </section>
     
     <footer class="site-footer">
         <div class="bottom">
