@@ -1,87 +1,100 @@
+# Overview
+The UW FHIR Workshop Tutorials will take place on Sunday, September 23 in room C123 in [Building C](https://www.uwmedicine.org/research/sites-facilities/slu/maps-contacts) at the UW Medicine - South Lake Union Research Hub. 
+
+The address of the location is [850 Republican St, Seattle, WA 98109](https://goo.gl/maps/Z3wTR9A5iVP2). 
+
+The tutorials will consist of two sessions - one in the morning, one in the afternoon - with a lunch break between. 
+
+The morning session will introduce FHIR, FHIR Resources, and the ClinFHIR tool. 
+
+The afternoon session will start with a walk-through for using FHIR APIs to retrieve FHIR resources needed for calculating the [Framingham Cardiovascular Risk Score](https://en.wikipedia.org/wiki/Framingham_Risk_Score).
+
+For the rest of the afternoon, participants will choose from 3 different tracks and work colaboratively in small teams on more advanced projects. 
+We'll aim to create diverse teams that include at least one clinician and one developer. 
+
+Please contact <a href='mailto:workshop@uwfhir.org'>workshop@uwfhir.org</a> if you have any questions or issues finding us!
+
+# Agenda
+
+| Time Slot     | Instructor(s) |  Description  |
+| ------------- |-----------------|------------------------------------------------------|
+| 10:00 - 10:45 | Viet Nguyen, MD | [Introduction to FHIR](#introduction-to-fhir)        |
+| 10:50 - 13:00 | Viet Nguyen, MD | [ClinFHIR Tutorial](#clinfhir-tutorial)          |
+| 13:00 - 14:00 | &nbsp; |   Lunch Provided!     |
+| 14:00 - 14:35 | Viet Nguyen, MD <br /> Maggie Dorr | [FHIR API Tutorial](#fhir-api-tutorial) |
+| 14:40 - 17:00 | Viet Nguyen, MD <br /> Maggie Dorr | Track 1: [FHIR API Tutorial - Part 2]() |
+| 14:40 - 17:00 | Piotr Mankowski | Track 2: [SMART on FHIR Tutorial]() |
+| 14:40 - 17:00 | Pascal Brandt | Track 3: [CDS Hooks Tutorial]() |
+
+# General Prerequesites
+
+# Tutorial Descriptions
+
+---
+
+## Introduction to FHIR
+10am - 10:45am
+
+### Learning objectives
+- Participants will locate the FHIR specification and navigate between versions of FHIR
+- Participants will demonstrate understanding in the five levels of FHIR architecture
+
+--- 
+
+## ClinFHIR Tutorial
+10:50am - 1:00pm
+
+### Learning objectives
+- Participants will read the FHIR resource definitions and apply this understanding to creation of FHIR resource instances using the clinfhir.com FHIR client
+- Participants will demonstrate the use of basic FHIR operations using the clinfhir.com FHIR client
+- Participants will demonstrate the FHIR server data, terminology and conformance capabilities
+
+### Prerequesites
+
+--- 
+
+## FHIR API Tutorial
+2:00pm - 2:40pm
 
 
 
+### Learning objectives
+
+### Prerequesites
+- Anaconda
+- Text Editor
+--- 
+
+## Track 1: FHIR API Tutorial - Part 2
+In this tutorial, we will design a client-side app that is able to be launched from the HSPC sandbox.
+
+### Learning objectives
+- Participants will demonstrate an understanding of the SMART on FHIR Authorization Sequence, 
+- Participants will demonstrate an understanding of using SMART on FHIR  
+- Participants will register and launch a client-SMART on FHIR application on the HSPC Sandbox
+
+### Prerequesites
 
 
-## Options
+## Track 2: SMART on FHIR Tutorial
+In this tutorial, we will demonstrate how to build a SMART on FHIR web application and launch this application from a couple different contexts from the HSPC Sandbox.
 
-1. Jupyter notebook that grabs FHIR resources and does some calculation to produce some clinically relevant output [no experience/scalable]
-2. SMART app that implements an app idea from below [some experience/scalable]
-3. CDS hooks using our or the Cerner tutorial (or a combination) [medium experience]
+### Learning objectives
 
-## Tutorial Possible Themes
-
-### incorporating external data/functionality
-
-Specific idea 1: Hitting BlueButton API to get claims data
-Specific idea 2: Use external tool for clinical feedback/decision support
-Specific idea 3: Up-to-date or drug/drug interaction APIs to show relevant
-Specific idea 4: Include sources of patient data outside the EHR (e.g. fitness trackers, sleep data, etc)
-
-### care coordination
-
-Specific idea 1: SMART patient list with list admin functionality (Add/remove patients, make custom cohorts, send messages/set reminder)’
-
-### decision support
-
-Specific idea 1: Risk calculator
-Specific idea 2: CDS hooks to invoke 
+### Prerequesites
 
 
-### patient facing
+## Track 3: CDS Hooks Tutorial
+In this tutorial, we will work on a simple Clinical Decision Support tool that uses the CDS Hooks standard 
+to provide clinical decision support in response to specific triggers in the EHR.
 
-Specific idea 1: Messaging/communication
-Specific idea 2: Patient reported outcome
+### Learning objectives
 
+### Prerequesites
 
+---
 
-## Tutorial Levels
-
-### Level One
-A Jupyter notebook that illustrates:
-1. Grabbing FHIR resources from a given FHIR endpoint. 
-2. Manipulating data in some way (internally/externally) to produce interesting outcome
-
-#### Based On
-- Framingham Risk Calculator Jupyter Notebook
-
-
-
-#### Teaching Objectives
-- Mapping FHIR Resources to a real-world tool / API
-
-#### Required Knowledge
-
-#### Resource / Calculator Options
-- Publicly-available APIs for health calcultors
-- Custom implementation of a simple health calculator
-
-
-### Level Two
-A client-side (uses javascript client?) or server-side? (uses python client) app that is able to be launched from the HSPC sandbox.
-
-#### Required Knowledge
-
-#### Resources
-
-#### Based On
-- https://github.com/cerner/smart-on-fhir-tutorial
-
-
-### Level Three
-A CDS Service that interacts with the HSPC Sandbox / CDS Hooks Sandbox to provide clinical decision support / public health advisories / anything that might be relevant to the subject given some triggers. 
-
-** Intro to CDS Hooks
-** Intro to possible triggers
-
-#### Teaching Objectives
-- CDS Hooks Concepts, API, & Interaction Pattern
-- Integration into real clinical scenarios - right time, right place, right advice
-- Demonstration of flexiblility and capabilities of CDS Hooks
-  
-#### Required Knowledge
-
-## Resources
+## Useful Resources
 
 ### Tutorials
 

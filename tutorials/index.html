@@ -38,18 +38,26 @@
 
     <link href="../css/style.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.css" integrity="sha256-qTBXiGmok0OwSTNA1uvNgoO6GSylS8Ty3TBjogwOxVo=" crossorigin="anonymous" />
+
     <style>
+
+        table {
+            border: none;
+        }
+        
+        thead {
+            overflow: hidden;
+        }
+        
         .hero {
             height: 3vh;
         }
-        .tutorials {
-            /* background-image: url(../../img/seattleSkyline_small.jpg); */
-            /* background-position: center; */
-            /* background-size: cover; */
-        }
+        
         .markdown {
-            padding-top: 0px;
+            padding-top: 20px;
         }
+
         .markdown-body {
             box-sizing: border-box;
             min-width: 200px;
@@ -61,6 +69,10 @@
             border-radius: 25px;
         }
     
+        .markdown-body hr {
+            background-color:lightslategray;
+        }
+
         @media (max-width: 61.9em) {
             .hero {
                 padding: 20px 10px 0 10px;
@@ -68,14 +80,16 @@
             .markdown-body {
                 padding: 15px;
             }
+            .markdown {
+                padding-top: 0px;
+            }
         }
 
         h2 {
             margin-bottom: 0;
         }
     </style>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.css" integrity="sha256-qTBXiGmok0OwSTNA1uvNgoO6GSylS8Ty3TBjogwOxVo=" crossorigin="anonymous" />
-
+    
   <!-- Main Stylesheet File -->
 
   <!-- =======================================================
@@ -93,7 +107,10 @@
             <h1>UW FHIR<sup style="font-size: 0.3em; vertical-align: super;">&#174</sup> Tutorials</h1>
             <div class="tagline">
                 <h2 class='day'>Sunday, Sep 23, 2018</h2>
-                <div id='location'>Location: <a target='_blank' href='https://www.uwmedicine.org/research/sites-facilities/slu/maps-contacts'>UW Medicine South Lake Union - Building C</a></div>
+                <div id='location'>
+                    <a target='_blank' href='https://www.uwmedicine.org/research/sites-facilities/slu/maps-contacts'>UW Medicine South Lake Union <br /> Building C - Rooms C123 A&B</a>
+                </div>
+                
             </div>
         </div>
     </section>  
