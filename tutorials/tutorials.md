@@ -22,9 +22,9 @@ Please contact <a href='mailto:workshop@uwfhir.org'>workshop@uwfhir.org</a> if y
 | 10:50 - 13:00 | Viet Nguyen, MD | [ClinFHIR Tutorial](#clinfhir-tutorial)          |
 | 13:00 - 14:00 | &nbsp; |   Lunch Provided!     |
 | 14:00 - 14:35 | Viet Nguyen, MD <br /> Maggie Dorr | [FHIR API Tutorial](#fhir-api-tutorial) |
-| 14:40 - 17:00 | Viet Nguyen, MD <br /> Maggie Dorr | Track 1: [FHIR API Tutorial - Part 2]() |
-| 14:40 - 17:00 | Piotr Mankowski | Track 2: [SMART on FHIR Tutorial]() |
-| 14:40 - 17:00 | Pascal Brandt | Track 3: [CDS Hooks Tutorial]() |
+| 14:40 - 17:00 | Viet Nguyen, MD <br /> Maggie Dorr | Track 1: [FHIR API Tutorial - Part 2](#track-1-fhir-api-tutorial---part-2) |
+| 14:40 - 17:00 | Piotr Mankowski | Track 2: [SMART on FHIR Tutorial](track-2-smart-on-fhir-tutorial) |
+| 14:40 - 17:00 | Pascal Brandt | Track 3: [CDS Hooks Tutorial](track-3-cds-hooks-tutorial) |
 
 # General Prerequesites
 
@@ -56,6 +56,8 @@ Please contact <a href='mailto:workshop@uwfhir.org'>workshop@uwfhir.org</a> if y
 ## FHIR API Tutorial
 2:00pm - 2:40pm
 
+https://github.com/uw-fhir/fhir-api-tutorial
+
 
 
 ### Learning objectives
@@ -68,6 +70,8 @@ Please contact <a href='mailto:workshop@uwfhir.org'>workshop@uwfhir.org</a> if y
 ## Track 1: FHIR API Tutorial - Part 2
 In this tutorial, we will design a client-side app that is able to be launched from the HSPC sandbox.
 
+https://github.com/uw-fhir/fhir-api-tutorial
+
 ### Learning objectives
 - Participants will demonstrate an understanding of the SMART on FHIR Authorization Sequence, 
 - Participants will demonstrate an understanding of using SMART on FHIR  
@@ -79,6 +83,8 @@ In this tutorial, we will design a client-side app that is able to be launched f
 ## Track 2: SMART on FHIR Tutorial
 In this tutorial, we will demonstrate how to build a SMART on FHIR web application and launch this application from a couple different contexts from the HSPC Sandbox.
 
+https://github.com/uw-fhir/smart-on-fhir-tutorial
+
 ### Learning objectives
 
 ### Prerequesites
@@ -88,44 +94,49 @@ In this tutorial, we will demonstrate how to build a SMART on FHIR web applicati
 In this tutorial, we will work on a simple Clinical Decision Support tool that uses the CDS Hooks standard 
 to provide clinical decision support in response to specific triggers in the EHR.
 
+https://github.com/uw-fhir/cds-services-tutorial
+
 ### Learning objectives
 
 ### Prerequesites
 
 ---
 
-## Useful Resources
+# Useful Resources
 
-### Tutorials
+## Tutorials
 
-#### Cerner
+### Cerner
 - https://github.com/cerner/bunsen-tutorial
 - https://github.com/cerner/smart-on-fhir-tutorial
 - https://github.com/cerner/cds-services-tutorial
 
-#### FHIR Crucible
+### FHIR Crucible
 - https://github.com/fhir-crucible
 
-#### UW
+### UW
 - https://psbrandt.io/fhir/
 - https://github.com/uwbhi/CDS-Hooks-Tutorial/blob/master/tutorial.md
 
-#### HSPC
+### HSPC
 - https://healthservices.atlassian.net/wiki/spaces/HSPC/pages/39911491/CDS+Hooks+Walk-through
 - https://healthservices.atlassian.net/wiki/spaces/HSPC/pages/25133059/Java+Client+Tutorial+Profiles+and+Resource+Extensions
 - https://healthservices.atlassian.net/wiki/spaces/HSPC/pages/15171628/OAuth2+Authorization+Walk-through
 
 
-### Sandboxes & App Galleries
+## Sandboxes & App Galleries
 - http://docs.smarthealthit.org/sandbox/
 - https://apps.smarthealthit.org/
 - https://sandbox.hspconsortium.org/
 - https://gallery.hspconsortium.org/
 
+
 - https://code.cerner.com/en/apps
 - https://fhir.cerner.com/millennium/dstu2/#open-sandbox
 
+
 - https://developer.allscripts.com/content/fhir/content/FHIR_Sandboxes/
+
 
 - https://open.epic.com/AppExchange/Sandbox
 - https://apporchard.epic.com/ (requires applying for login)
