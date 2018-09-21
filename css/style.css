@@ -1,33 +1,33 @@
 @media (max-width: 600px) {
-	tr, td, th, thead, tbody, table {
+	#agenda tr, #agenda td, #agenda th, #agenda thead, #agenda tbody, #agenda table {
 		display: block;
 	}
 
-	table {
+	#agenda table {
 		display: flex;
 		overflow: hidden;
 	}
 
-		tr {
-			margin: .2em 0;
-		}
+  #agenda tr {
+    margin: .2em 0;
+  }
 
-		thead {
-			--cols: 5;
-			--height: calc(1.67em * var(--cols));
-			text-shadow: 0 var(--height),
-			             0 calc(var(--height) * 2), 
-			             0 calc(var(--height) * 3),
-			             0 calc(var(--height) * 4); /* extra shadows are still ok */
-		}
+  #agenda thead {
+    --cols: 5;
+    --height: calc(1.67em * var(--cols));
+    text-shadow: 0 var(--height),
+                  0 calc(var(--height) * 2), 
+                  0 calc(var(--height) * 3),
+                  0 calc(var(--height) * 4); /* extra shadows are still ok */
+  }
 
-		th {
-			text-align: left;
-		}
-		
-		td:not(:first-child) {
-			border-top: none;
-		}
+  #agenda th {
+    text-align: left;
+  }
+  
+  #agenda td:not(:first-child) {
+    border-top: none;
+  }
 }
 
 .tagline #location {

@@ -85,6 +85,39 @@
             }
         }
 
+        @media (max-width: 490px) {
+             tr,  td,  th,  thead,  tbody,  table {
+                display: block;
+            }
+
+             table {
+                display: flex;
+                overflow: hidden;
+            }
+
+         tr {
+            margin: .2em 0;
+        }
+
+         thead {
+            --cols: 5;
+            --height: calc(1.67em * var(--cols));
+            text-shadow: 0 var(--height),
+                        0 calc(var(--height) * 2), 
+                        0 calc(var(--height) * 3),
+                        0 calc(var(--height) * 4); /* extra shadows are still ok */
+        }
+
+         th {
+            text-align: left;
+        }
+        
+         td:not(:first-child) {
+            border-top: none;
+        }
+        }        
+
+
         h2 {
             margin-bottom: 0;
         }
