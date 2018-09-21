@@ -111,7 +111,7 @@ https://github.com/uw-fhir/cds-services-tutorial
 
 ---
 
-# Useful Resources
+# Useful Resources for Further Exploration
 
 ## Tutorials
 
