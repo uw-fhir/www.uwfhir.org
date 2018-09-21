@@ -16,24 +16,43 @@ Please contact <a href='mailto:workshop@uwfhir.org'>workshop@uwfhir.org</a> if y
 
 # Agenda
 
-| Time Slot     | Instructor(s) |  Description  |
-| ------------- |-----------------|------------------------------------------------------|
-| 10:00 - 10:45 | Viet Nguyen, MD | [Introduction to FHIR](#introduction-to-fhir)        |
-| 10:50 - 13:00 | Viet Nguyen, MD | [ClinFHIR Tutorial](#clinfhir-tutorial)          |
-| 13:00 - 14:00 | &nbsp; |   Lunch Provided!     |
-| 14:00 - 14:35 | Viet Nguyen, MD <br /> Maggie Dorr | [FHIR API Tutorial](#fhir-api-tutorial) |
-| 14:40 - 17:00 | Viet Nguyen, MD <br /> Maggie Dorr | Track 1: [FHIR API Tutorial - Part 2](#track-1-fhir-api-tutorial---part-2) |
-| 14:40 - 17:00 | Piotr Mankowski | Track 2: [SMART on FHIR Tutorial](track-2-smart-on-fhir-tutorial) |
-| 14:40 - 17:00 | Pascal Brandt | Track 3: [CDS Hooks Tutorial](track-3-cds-hooks-tutorial) |
+| Time Slot          | Instructor(s) |  Description  |
+| -------------------|-----------------|------------------------------------------------------|
+| 10:00am - 10:45am  | Viet Nguyen, MD | [Introduction to FHIR](#introduction-to-fhir)        |
+| 10:50am - 1:00pm   | Viet Nguyen, MD | [ClinFHIR Tutorial](#clinfhir-tutorial)          |
+| 1:00pm - 2:00pm    | &nbsp; |   Lunch Provided!     |
+| 2:00pm - 2:35pm    | Viet Nguyen, MD <br /> Maggie Dorr | [FHIR API Tutorial](#fhir-api-tutorial) |
+| 2:45pm - 5:00pm    | Viet Nguyen, MD <br /> Maggie Dorr | Track 1: [FHIR API Tutorial - Part 2](#track-1-fhir-api-tutorial---part-2) |
+| 2:45pm - 5:00pm    | Piotr Mankowski | Track 2: [SMART on FHIR Tutorial](track-2-smart-on-fhir-tutorial) |
+| 2:45pm - 5:00pm    | Pascal Brandt | Track 3: [CDS Hooks Tutorial](track-3-cds-hooks-tutorial) |
 
 # General Prerequesites
+- [ ] Create a public GitHub account if you do not have one by going to www.github.com and clicking the `Sign up for Github` button.
+
+- [ ] Create an account for the HSPC Sandbox by going to https://sandbox.hspconsortium.org/#/start and clicking the `Sign Up` button.
+
+- [ ] Install a text editor for viewing and editing code. Some options:
+    * [VS Code](https://code.visualstudio.com/)
+    * [Sublime](https://www.sublimetext.com/)
+    * [Atom](https://atom.io/)
+
+- [ ] Install Git if you don't have it. Check out the [Git book install guide](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and the [download page](https://git-scm.com/downloads)
+    
+    **Note: if you're unfamiliar with git or Github, check these out:**
+    - [Github Guides - Hello World](https://guides.github.com/activities/hello-world/)
+    - [Github Bootcamp](https://help.github.com/categories/bootcamp/)
+    - [Getting Started - Git Book](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
+
+- [ ] Install [Anaconda (Python 3.6 Version)](https://docs.anaconda.com/anaconda/install/)
 
 # Tutorial Descriptions
 
 ---
 
 ## Introduction to FHIR
-10am - 10:45am
+*10am - 10:45am*
+
+
 
 ### Learning objectives
 - Participants will locate the FHIR specification and navigate between versions of FHIR
@@ -65,6 +84,7 @@ https://github.com/uw-fhir/fhir-api-tutorial
 ### Prerequesites
 - Anaconda
 - Text Editor
+
 --- 
 
 ## Track 1: FHIR API Tutorial - Part 2
