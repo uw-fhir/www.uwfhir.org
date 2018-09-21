@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>2018 UW FHIR Workshop</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Facebook Opengraph integration: https://developers.facebook.com/docs/sharing/opengraph -->
+  <meta property="og:title" content="">
+  <meta property="og:image" content="">
+  <meta property="og:url" content="">
+  <meta property="og:site_name" content="">
+  <meta property="og:description" content="">
+
+  <!-- Twitter Cards integration: https://dev.twitter.com/cards/  -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="">
+  <meta name="twitter:title" content="">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:image" content="">
+
+  
+  <!-- Favicon -->
+  <link href="../img/favicon.ico" rel="icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700|Roboto:400,900" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="../lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+    crossorigin="anonymous">
+
+    <link href="../css/style.css" rel="stylesheet">
+
+    <style>
+        .markdown-body {
+            box-sizing: border-box;
+            min-width: 200px;
+            max-width: inherit;
+            margin: 30px auto;
+            padding: 45px;
+            background: white;
+            text-align: left;
+        }
+    
+        @media (max-width: 767px) {
+            .markdown-body {
+                padding: 15px;
+            }
+        }
+
+        h2 {
+            margin-bottom: 0;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.css" integrity="sha256-qTBXiGmok0OwSTNA1uvNgoO6GSylS8Ty3TBjogwOxVo=" crossorigin="anonymous" />
+
+  <!-- Main Stylesheet File -->
+
+  <!-- =======================================================
+    Theme Name: Bell
+    Theme URL: https://bootstrapmade.com/bell-free-bootstrap-4-template/
+    Author: BootstrapMade.com
+    Author URL: https://bootstrapmade.com
+  ======================================================= -->
+</head>
+
+<body>
+    <section class="rsvp hero">
+        <div class="container">
+            <div class="row">
+              <div class='col'>
+                  <h1>UW FHIR<sup style="font-size: 0.6em;">&#174</sup> Tutorials</h1>
+                  <h2 class='day'>Sunday, Sep 23, 2018</h2>
+                  <h3>Location: <a target='_blank' href='https://www.uwmedicine.org/research/sites-facilities/slu/maps-contacts'>UW Medicine South Lake Union - Building C</a></h3>
+                  <article id='md-document' class='markdown-body'></article>
+              </div>  
+            </div>
+        </div>  
+    </section>  
+
+    
+    <footer class="site-footer">
+        <div class="bottom">
+            <div class="container">
+            <div class="row">
+    
+                <div class="col-lg-6 col-xs-12 text-lg-left text-center">
+                <p class="copyright-text">
+                    © BELL Theme
+                </p>
+                <div class="credits">
+                    <!--
+                    All the links in the footer should remain intact.
+                    You can delete the links only if you purchased the pro version.
+                    Licensing information: https://bootstrapmade.com/license/
+                    Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Bell
+                    -->
+                    Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                </div>
+                </div>
+    
+            </div>
+            </div>
+        </div>
+    </footer>
+    <a class="scrolltop" href="#"><span class="fa fa-angle-up"></span></a>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.8.6/showdown.min.js"></script>
+    
+    <!-- Required JavaScript Libraries -->
+    <script src="../lib/jquery/jquery.min.js"></script>
+    <script src="../lib/jquery/jquery-migrate.min.js"></script>
+    <script src="../lib/superfish/hoverIntent.js"></script>
+    <script src="../lib/superfish/superfish.min.js"></script>
+    <script src="../lib/tether/js/tether.min.js"></script>
+    <script src="../lib/stellar/stellar.min.js"></script>
+    <script src="../lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../lib/counterup/counterup.min.js"></script>
+    <script src="../lib/waypoints/waypoints.min.js"></script>
+    <script src="../lib/easing/easing.js"></script>
+    <script src="../lib/stickyjs/sticky.js"></script>
+    <script src="../lib/parallax/parallax.js"></script>
+    <script src="../lib/lockfixed/lockfixed.min.js"></script>
+
+    <!-- Template Specisifc Custom Javascript File -->
+    <script src="../js/custom.js"></script>
+
+    <script type="text/javascript">
+        fetch('tutorials.md')
+        .then(response => {
+            return response.blob();
+        })
+        .then(md => {
+            var reader = new FileReader();
+            reader.onload = function() {
+                var converter = new showdown.Converter();
+                converter.setFlavor('github');
+                var text = reader.result;
+                var html = converter.makeHtml(text);
+                $('#md-document').html(html);   
+            } 
+            reader.readAsText(md);
+
+        })
+
+
+
+    </script>
+</body>
+
+</html> 
