@@ -48,18 +48,17 @@ Please contact <a href='mailto:workshop@uwfhir.org'>workshop@uwfhir.org</a> if y
 # Tutorial Descriptions
 
 ---
-
+*10:00am - 10:45am*
 ## Introduction to FHIR
-*10am - 10:45am*
 
 ### Learning objectives
 - Participants will locate the FHIR specification and navigate between versions of FHIR
 - Participants will demonstrate understanding in the five levels of FHIR architecture
 
 --- 
+*10:50am - 1:00pm*
 
 ## ClinFHIR Tutorial
-10:50am - 1:00pm
 
 ### Learning objectives
 - Participants will read the FHIR resource definitions and apply this understanding to creation of FHIR resource instances using the clinfhir.com FHIR client
@@ -67,16 +66,17 @@ Please contact <a href='mailto:workshop@uwfhir.org'>workshop@uwfhir.org</a> if y
 - Participants will demonstrate the FHIR server data, terminology and conformance capabilities
 
 --- 
-
+*2:00pm - 2:40pm*
 ## FHIR API Tutorial
-2:00pm - 2:40pm
 
 https://github.com/uw-fhir/fhir-api-tutorial
 
 ### Learning objectives
 
 
---- 
+---
+*2:50pm - 5:00pm*
+
 
 ## Track 1: FHIR API Tutorial Part 2
 This tutorial will build on the previous session and allow participants to either (1) build a BMI Calculator 
