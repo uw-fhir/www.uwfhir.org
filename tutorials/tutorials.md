@@ -26,7 +26,7 @@ Please contact <a href='mailto:workshop@uwfhir.org'>workshop@uwfhir.org</a> if y
 | 2:45pm - 5:00pm    | Piotr Mankowski | Track 2: [SMART on FHIR Tutorial](track-2-smart-on-fhir-tutorial) |
 | 2:45pm - 5:00pm    | Pascal Brandt | Track 3: [CDS Hooks Tutorial](track-3-cds-hooks-tutorial) |
 
-# General Prerequesites
+# General Prerequisites
 - [ ] Create a public GitHub account if you do not have one by going to www.github.com and clicking the `Sign up for Github` button.
 
 - [ ] Create an account for the HSPC Sandbox by going to https://sandbox.hspconsortium.org/#/start and clicking the `Sign Up` button.
@@ -68,7 +68,7 @@ Please contact <a href='mailto:workshop@uwfhir.org'>workshop@uwfhir.org</a> if y
 - Participants will demonstrate the use of basic FHIR operations using the clinfhir.com FHIR client
 - Participants will demonstrate the FHIR server data, terminology and conformance capabilities
 
-### Prerequesites
+### Prerequisites
 
 --- 
 
@@ -81,7 +81,7 @@ https://github.com/uw-fhir/fhir-api-tutorial
 
 ### Learning objectives
 
-### Prerequesites
+### Prerequisites
 - Anaconda
 - Text Editor
 
@@ -97,7 +97,7 @@ https://github.com/uw-fhir/fhir-api-tutorial
 - Participants will demonstrate an understanding of using SMART on FHIR  
 - Participants will register and launch a client-SMART on FHIR application on the HSPC Sandbox
 
-### Prerequesites
+### Prerequisites
 
 
 ## Track 2: SMART on FHIR Tutorial
@@ -107,7 +107,7 @@ https://github.com/uw-fhir/smart-on-fhir-tutorial
 
 ### Learning objectives
 
-### Prerequesites
+### Prerequisites
 
 
 ## Track 3: CDS Hooks Tutorial
@@ -118,7 +118,7 @@ https://github.com/uw-fhir/cds-services-tutorial
 
 ### Learning objectives
 
-### Prerequesites
+### Prerequisites
 
 ---
 
