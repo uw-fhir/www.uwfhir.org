@@ -93,17 +93,17 @@
 }
 
 .logo-strip .logo-container {
-  padding: 10px;
+  padding: 0px;
   background-color: #fff;
   height: 100px;
   margin-bottom: 10px;
   display: flex;
 } 
+
 .logo-strip .logo-container img{
   max-height: 100%;
   max-width: 100%;
   margin: 0 auto;
-  padding: 10px;
 }
 
 
