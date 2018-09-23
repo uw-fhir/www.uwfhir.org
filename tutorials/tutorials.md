@@ -50,7 +50,7 @@ Please contact <a href='mailto:workshop@uwfhir.org'>workshop@uwfhir.org</a> if y
 ---
 *10:00am - 10:45am*
 ## Introduction to FHIR
-[PDF Slides](http://www.uwfhir.org/files/UW_FHIR_Workshop-intro_To_FHIR.pdf)
+[PDF Slides](http://www.uwfhir.org/files/UW_FHIR_Workshop-Intro_To_FHIR.pdf)
 
 ### Learning objectives
 - Participants will locate the FHIR specification and navigate between versions of FHIR
