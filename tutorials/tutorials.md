@@ -23,8 +23,8 @@ Please contact <a href='mailto:workshop@uwfhir.org'>workshop@uwfhir.org</a> if y
 | 1:00pm - 2:00pm    | &nbsp; |   Lunch Provided!     |
 | 2:00pm - 2:35pm    | Viet Nguyen, MD <br /> Maggie Dorr | [FHIR API Tutorial](#fhir-api-tutorial) |
 | 2:45pm - 5:00pm    | Viet Nguyen, MD <br /> Maggie Dorr | Track 1: [FHIR API Tutorial - Part 2](#track-1-fhir-api-tutorial---part-2) |
-| 2:45pm - 5:00pm    | Piotr Mankowski | Track 2: [SMART on FHIR Tutorial](track-2-smart-on-fhir-tutorial) |
-| 2:45pm - 5:00pm    | Pascal Brandt | Track 3: [CDS Hooks Tutorial](track-3-cds-hooks-tutorial) |
+| 2:45pm - 5:00pm    | Piotr Mankowski | Track 2: [SMART on FHIR Tutorial](#track-2-smart-on-fhir-tutorial) |
+| 2:45pm - 5:00pm    | Pascal Brandt | Track 3: [CDS Hooks Tutorial](#track-3-cds-hooks-tutorial) |
 
 # General Prerequisites
 - [ ] Create a public GitHub account if you do not have one by going to www.github.com and clicking the `Sign up for Github` button.
