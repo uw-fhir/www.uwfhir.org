@@ -16,14 +16,14 @@ Please contact <a href='mailto:workshop@uwfhir.org'>workshop@uwfhir.org</a> if y
 
 # Agenda
 
-| Time Slot          | Instructor(s) |  Description  |
+| Time Slot          | Instructor(s) |  Description  |  Recordings
 | -------------------|-----------------|------------------------------------------------------|
-| 10:00am - 10:45am  | Viet Nguyen, MD | [Introduction to FHIR](#introduction-to-fhir)        |
-| 10:50am - 1:00pm   | Viet Nguyen, MD | [ClinFHIR Tutorial](#clinfhir-tutorial)          |
+| 10:00am - 10:45am  | Viet Nguyen, MD | [Introduction to FHIR](#introduction-to-fhir)        |  [Video](https://vimeo.com/296068669)
+| 10:50am - 1:00pm   | Viet Nguyen, MD | [ClinFHIR Tutorial](#clinfhir-tutorial)          |  [Video](https://vimeo.com/296069454)
 | 1:00pm - 2:00pm    | &nbsp; |   Lunch Provided!     |
 | 2:00pm - 2:35pm    | Viet Nguyen, MD <br /> Maggie Dorr | [FHIR API Tutorial](#fhir-api-tutorial) |
 | 2:45pm - 5:00pm    | Viet Nguyen, MD <br /> Maggie Dorr | Track 1: [FHIR API Tutorial - Part 2](#track-1-fhir-api-tutorial-part-2) |
-| 2:45pm - 5:00pm    | Piotr Mankowski | Track 2: [SMART on FHIR Tutorial](#track-2-smart-on-fhir-tutorial) |
+| 2:45pm - 5:00pm    | Piotr Mankowski | Track 2: [SMART on FHIR Tutorial](#track-2-smart-on-fhir-tutorial) | [Video](https://vimeo.com/293222506)
 | 2:45pm - 5:00pm    | Pascal Brandt | Track 3: [CDS Hooks Tutorial](#track-3-cds-hooks-tutorial) |
 
 # General Prerequisites
