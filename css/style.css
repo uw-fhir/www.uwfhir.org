@@ -316,6 +316,28 @@ a {
   color: #199EB8;
 }
 
+.card .btn-cards {
+  background-color: transparent;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #181818;
+  border-top: 1px solid #585858;
+  padding: 15px 45px;
+  border-radius: 0px;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.card .btn-cards:hover {
+  background-color: rgba(25, 158, 184, 0.479);
+}
+
+.card .btn-cards:active {
+  background-color: rgba(224, 78, 0, 0.603);
+  color: #fff;
+}
+
 section {
   padding: 85px 0;
 }
@@ -324,7 +346,7 @@ section {
   position: relative;
   padding: 0;
   border: 0;
-  border-radius: 0;
+  border-radius: 5px;
   margin: 0;
   overflow: hidden;
 }
@@ -551,11 +573,12 @@ a:hover {
 }
 
 /* Nav Meu Styling */
+
 .nav-menu a {
   padding: 22px 15px 18px 15px;
   text-decoration: none;
   display: inline-block;
-  color: #fff;
+  color: #199EB8;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 15px;
@@ -1094,6 +1117,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .form button[type="submit"]:hover {
   background: #23c2e1;
+}
+
+.card a {
+  background: #199EB8;
+  width: 100%;
+  border-radius: 5px;
 }
 
 /* ==================================================
