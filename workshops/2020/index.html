@@ -115,7 +115,7 @@
 	  -->
 	  
 	  <!-- Inactive Buttons -->
-	  <a class="btn btn-inactive">Agenda<br/><i>Coming Soon</i></a>
+	  <a class="btn" href="#agenda">View <br/>Agenda</a>
 	  <a class="btn" href="#abstract">Call for <br/>Quick FHIR Talks</a>
 	  <a class="btn btn-inactive">Register<br/><i>Coming Soon</i></a>
 
@@ -291,54 +291,118 @@
 
 
       <div class='about-section' id='agenda'>
-        <h3><br/>Agenda to be Announced</h3>
+       
 		
         <div id='tutorial'>
-          <!-- <h3>September 23rd, FHIR Technical Tutorials</h3>
-          <p style="text-align: center;">Location: <a target='_blank' href='https://www.uwmedicine.org/research/sites-facilities/slu/maps-contacts'>UW Medicine South Lake Union - Building C - Room C123</a></p>
+          <h3>FHIR Workshop Agenda</h3>
+		  <p style="text-align: center;"><b>Conference Theme: Data > Information > Evidence > Knowledge through FHIR</b></p>
+          <!--<p style="text-align: center;">Location: <a target='_blank' href='https://www.uwmedicine.org/research/sites-facilities/slu/maps-contacts'>UW Medicine South Lake Union - Building C - Room C123</a></p>
           <p style="text-align: center;">Agenda and Details: <a href='../../tutorials'>www.uwfhir.org/tutorials</a></p>
           -->
-          <!-- <table>
+		  <table>
             <tr id="mainheader">
-              <th>Time Slot</th>
-              <th>Content</th>
+              <th>9:00 - 12:30</th>
+              <th>Morning Session</th>
             </tr>
             <tr>
-              <td class='agenda-time'>10:00-1:00</td>
-              <td class='agenda-detail text-left'>The morning session will be about learning FHIR. We'll get our hands (a little) dirty accessing REST APIs,
-                creating FHIR resources and working with the FHIR API. If you can only attend one session, we recommend this
-                morning session.
-                <br/><br/>
-                <i>Prerequisites: The morning session assumes no knowledge of FHIR or programming. You should have your own
-                  laptop with current versions of Chrome and Anaconda installed (instructions to be provided the week prior
-                  to the tutorial).</i> 
-
+              <td class='agenda-time'>9:00</td>
+              <td class='agenda-detail text-left'>
+			  	<b>Getting FHIRed Up: Welcome and Opening Remarks</b>
+			  	<br/>Introduction to the workshop logistics, framework, and goals. Thoughts about FHIR innovation in academics, research, and public health practice.
               </td>
             </tr>
             <tr>
-              <td>1:00-2:00</td>
-              <td>Lunch provided</td>
+              <td>9:15</td>
+              <td class='agenda-detail text-left'>
+			  	<b>FHIRing on all Cylinders: Public Health & Government Perspectives</b>
+				<br/>FHIR initiatives and use cases in government and research for population health.
+			</td>
             </tr>
             <tr>
-              <td>2:00-5:00</td>
-              <td class='agenda-detail text-left'>The afternoon session will focus on real-world FHIR development skills, getting (virtual) grease under
-                their fingernails. Groups of 5-6 will work to build a risk calculator as a demonstration of a SMART on FHIR
-                app for providers. If you can't make the morning session, we recommend you have a handle on FHIR (which you
-                will have if you attend the morning session) before you attend this session.
-                <br/><br/>
-                <i>Prerequisites: The afternoon session assumes knowledge of FHIR and FHIR resources, but not specific software
-                  development skills. Attendees will be grouped to ensure a mix of skill levels. Attendance in the morning
-                  will provide sufficient background for the afternoon. You should have your own laptop with Chrome and Anaconda
-                  installed, as with the morning session. (instructions to be provided the week prior to the tutorial).<i/>
+              <td>9:45</td>
+              <td class='agenda-detail text-left'>
+			  	<b>Fueling the FHIR: Updates and Challenges in a Global Perspective</b>
+				<br/>A global health perspective on the future or FHIR, and what it will take to get there.
               </td>
-
             </tr>
-            <tr>
-              <td></td>
-              <td>Most likely, some of us will head to a local pub for dinner afterwards</td>
-
+			
+			<tr>
+              <td>10:15</td>
+              <td class='agenda-detail text-left'>
+			  	<b>Break (15 min)</b>
+			  </td>
             </tr>
-          </table> -->
+			
+			<tr>
+              <td>10:30</td>
+              <td class='agenda-detail text-left'>
+			  	<b>Panel Session 1</b>
+			  	<br/>Use case: FHIR in Public Health
+				<br/>Example topics include Electronic case reporting, death reporting, opioids.
+			  </td>
+            </tr>
+			
+			<tr>
+              <td>10:30</td>
+              <td class='agenda-detail text-left'>
+			  	<b>Panel Session 2</b>
+			  	<br/>Use case: FHIR in Clinical Care and Implementation Science
+				<br/>Example topics include implementations across healthcare settings
+			  </td>
+            </tr>
+			
+			<tr>
+              <td>12:30</td>
+              <td class='agenda-detail text-left'>
+			  	<b>Lunch Break (1 hour)</b>
+			  </td>
+            </tr>
+			
+			<tr id="mainheader">
+              <th>1:30 - 5:00</th>
+              <th>Afternoon Session</th>
+            </tr>
+			
+			<tr>
+              <td>1:30</td>
+              <td class='agenda-detail text-left'>
+			  	<b>Quick FHIR Talks</b>
+				<br/>Ten minute talks highlighting innovative FHIR projects
+			  </td>
+            </tr>
+			
+			<tr>
+              <td>2:30</td>
+              <td class='agenda-detail text-left'>
+			  	<b>FHIR Breakout Sessions</b>
+				<br/>Interactive topic-based discussions. Example topics include: FHIR-first Architectures, Genomics and FHIR, Terminology and Modelling, FDA, Law, and 21st Century Cures Act
+			  </td>
+            </tr>
+			
+			<tr>
+              <td>3:30</td>
+              <td class='agenda-detail text-left'>
+			  	<b>Break (15 min)</b>
+			  </td>
+            </tr>
+			
+			<tr>
+              <td>3:45</td>
+              <td class='agenda-detail text-left'>
+			  	<b>Panel Session 3</b>
+				<br/>Use case: FHIR Bridging Population Health and Clinical Care
+				<br/>Example topics include Clinical Decision Support and CQL, syndromic surveillance, patient-reported outcomes 
+			  </td>
+            </tr>
+			
+			<tr>
+              <td>4:45</td>
+              <td class='agenda-detail text-left'>
+			  	<b>Closing Remarks</b>
+			  </td>
+            </tr>
+            
+          </table> 
 
         <!-- </div>
         <br>
