@@ -1,2 +1,2 @@
-# 2018 UW FHIR Workshop Website
+# UW FHIR Workshop Website
 www.uwfhir.org
