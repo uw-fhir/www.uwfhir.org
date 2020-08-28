@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>2018 UW FHIR Workshop</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Facebook Opengraph integration: https://developers.facebook.com/docs/sharing/opengraph -->
+  <meta property="og:title" content="">
+  <meta property="og:image" content="">
+  <meta property="og:url" content="">
+  <meta property="og:site_name" content="">
+  <meta property="og:description" content="">
+
+  <!-- Twitter Cards integration: https://dev.twitter.com/cards/  -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="">
+  <meta name="twitter:title" content="">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:image" content="">
+
+  
+  <!-- Favicon -->
+  <link href="../img/favicon.ico" rel="icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700|Roboto:400,900" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="../lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+    crossorigin="anonymous">
+
+    <link href="../css/style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.css" integrity="sha256-qTBXiGmok0OwSTNA1uvNgoO6GSylS8Ty3TBjogwOxVo=" crossorigin="anonymous" />
+
+    <style>
+
+        table {
+            border: none;
+        }
+        
+        thead {
+            overflow: hidden;
+        }
+        
+        .hero {
+            height: 3vh;
+        }
+        
+        .markdown {
+            padding-top: 20px;
+        }
+
+        .markdown-body {
+            box-sizing: border-box;
+            min-width: 200px;
+            max-width: 1200px;
+            margin: 10px auto 10px auto;
+            padding: 0 40px 30px 40px;
+            background: white;
+            text-align: left;
+            border-radius: 25px;
+        }
+    
+        .markdown-body hr {
+            background-color:lightslategray;
+            margin-bottom: 15px;
+            margin-top: 50px;
+        }
+
+        @media (max-width: 61.9em) {
+            .hero {
+                padding: 20px 10px 0 10px;
+            }
+            .markdown-body {
+                padding: 15px;
+            }
+            .markdown {
+                padding-top: 0px;
+            }
+        }
+
+        @media (max-width: 490px) {
+             tr,  td,  th,  thead,  tbody,  table {
+                display: block;
+            }
+
+             table {
+                display: flex;
+                overflow: hidden;
+            }
+
+         tr {
+            margin: .2em 0;
+        }
+
+         thead {
+            --cols: 5;
+            --height: calc(1.67em * var(--cols));
+            text-shadow: 0 var(--height),
+                        0 calc(var(--height) * 2), 
+                        0 calc(var(--height) * 3),
+                        0 calc(var(--height) * 4); /* extra shadows are still ok */
+        }
+
+         th {
+            text-align: left;
+        }
+        
+         td:not(:first-child) {
+            border-top: none;
+        }
+        }        
+
+
+        h2 {
+            margin-bottom: 0;
+        }
+    </style>
+    
+  <!-- Main Stylesheet File -->
+
+  <!-- =======================================================
+    Theme Name: Bell
+    Theme URL: https://bootstrapmade.com/bell-free-bootstrap-4-template/
+    Author: BootstrapMade.com
+    Author URL: https://bootstrapmade.com
+  ======================================================= -->
+</head>
+
+
+<body>
+    <!-- Navigation Bar-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">UW FHIR</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="/tutorials/">Tutorials</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Workshops
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="/workshops/2020/">2020 UW FHIR Conference</a>
+                <a class="dropdown-item" href="/workshops/2018/">2018 UW FHIR Workshop</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <section class="hero">
+        <div class="container text-center">
+            <h1>UW FHIR<sup style="font-size: 0.3em; vertical-align: super;">&#174</sup> Tutorials</h1>
+            <div class="tagline">
+                <h2 class='day'>Sunday, Sep 23, 2018</h2>
+                <div id='location'>
+                    <a target='_blank' href='https://www.uwmedicine.org/research/sites-facilities/slu/maps-contacts'>UW Medicine South Lake Union <br /> Building C - Rooms C123 A&B</a>
+                </div>
+                
+            </div>
+        </div>
+    </section>  
+
+    <section class='markdown'>
+        <div class='container'>
+            <div class='row'>
+                <div class='col'>
+                    <article id='md-document' class='markdown-body'></article>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="site-footer">
+        <div class="bottom">
+            <div class="container">
+            <div class="row">
+    
+                <div class="col-lg-6 col-xs-12 text-lg-left text-center">
+                <p class="copyright-text">
+                    © BELL Theme
+                </p>
+                <div class="credits">
+                    <!--
+                    All the links in the footer should remain intact.
+                    You can delete the links only if you purchased the pro version.
+                    Licensing information: https://bootstrapmade.com/license/
+                    Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Bell
+                    -->
+                    Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                </div>
+                </div>
+    
+            </div>
+            </div>
+        </div>
+    </footer>
+    <a class="scrolltop" href="#"><span class="fa fa-angle-up"></span></a>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.8.6/showdown.min.js"></script>
+    
+    <!-- Required JavaScript Libraries -->
+    <script src="../lib/jquery/jquery.min.js"></script>
+    <script src="../lib/jquery/jquery-migrate.min.js"></script>
+    <script src="../lib/superfish/hoverIntent.js"></script>
+    <script src="../lib/superfish/superfish.min.js"></script>
+    <script src="../lib/tether/js/tether.min.js"></script>
+    <script src="../lib/stellar/stellar.min.js"></script>
+    <script src="../lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../lib/counterup/counterup.min.js"></script>
+    <script src="../lib/waypoints/waypoints.min.js"></script>
+    <script src="../lib/easing/easing.js"></script>
+    <script src="../lib/stickyjs/sticky.js"></script>
+    <script src="../lib/parallax/parallax.js"></script>
+    <script src="../lib/lockfixed/lockfixed.min.js"></script>
+
+    <!-- Template Specisifc Custom Javascript File -->
+    <script src="../js/custom.js"></script>
+
+    <script type="text/javascript">
+        fetch('tutorials.md')
+        .then(response => {
+            return response.blob();
+        })
+        .then(md => {
+            var reader = new FileReader();
+            reader.onload = function() {
+                var converter = new showdown.Converter();
+                converter.setFlavor('github');
+                var text = reader.result;
+                var html = converter.makeHtml(text);
+                $('#md-document').html(html);   
+            } 
+            reader.readAsText(md);
+
+        })
+
+
+
+    </script>
+</body>
+
+</html> 
