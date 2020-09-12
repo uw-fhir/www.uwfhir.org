@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-124121007-1">
+	</script>
+	<script>
+	            window.dataLayer = window.dataLayer || [];
+	            function gtag() { dataLayer.push(arguments); }
+	            gtag('js', new Date());
+
+	            gtag('config', 'UA-124121007-1');
+	</script>
+	<meta charset="utf-8">
+
+	<title>2020 UW FHIR Workshop</title>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta content="" name="keywords">
+	<meta content="" name="description"><!-- Facebook Opengraph integration: https://developers.facebook.com/docs/sharing/opengraph -->
+	<meta content="" property="og:title">
+	<meta content="" property="og:image">
+	<meta content="" property="og:url">
+	<meta content="" property="og:site_name">
+	<meta content="" property="og:description"><!-- Twitter Cards integration: https://dev.twitter.com/cards/  -->
+	<meta content="summary" name="twitter:card">
+	<meta content="" name="twitter:site">
+	<meta content="" name="twitter:title">
+	<meta content="" name="twitter:description">
+	<meta content="" name="twitter:image"><!-- Favicon -->
+	<link href="../../img/favicon.ico" rel="icon"><!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700|Roboto:400,900" rel="stylesheet"><!-- Bootstrap CSS File -->
+	<link href="../../lib/bootstrap/css/bootstrap.min.css" rel="stylesheet"><!-- Libraries CSS Files -->
+	<!-- <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet"> -->
+	<link href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" rel="stylesheet"><!-- Main Stylesheet File -->
+	<link href="../../css/style.css" rel="stylesheet"><!-- =======================================================
+    Theme Name: Bell
+    Theme URL: https://bootstrapmade.com/bell-free-bootstrap-4-template/
+    Author: BootstrapMade.com
+    Author URL: https://bootstrapmade.com
+  ======================================================= -->
+</head>
+
+<body>
+	<!-- Page Content
+    ================================================== -->
+	<!-- Navigation Bar-->
+
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<a class="navbar-brand" href="#">UW FHIR</a> <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="/">Home</a>
+				</li>
+
+
+				<li class="nav-item">
+					<a class="nav-link" href="/tutorials/">Tutorials</a>
+				</li>
+
+
+				<li class="nav-item dropdown active">
+					<a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdown" role="button">Workshops</a>
+
+					<div aria-labelledby="navbarDropdown" class="dropdown-menu">
+						<a class="dropdown-item" href="/workshops/2020/">2020 UW FHIR Conference</a> <a class="dropdown-item" href="/workshops/2018/">2018 UW FHIR Workshop</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<!-- Hero -->
+
+
+	<section class="hero">
+		<div class="container text-center">
+			<h1>2020 UW FHIR<sup style="font-size: 0.3em; vertical-align: super;">&#174;</sup> Conference</h1>
+
+
+			<div class="tagline">
+				<div id='location'>
+					University of Washington, Seattle
+				</div>
+
+
+				<div class='waitlist-notice'>
+					<i class='waitlist'>Hosted remotely via Zoom<br>
+					<br>
+					<br></i>
+				</div>
+
+
+				<div class='day'>
+					September 11 - 12, 2020
+				</div>
+
+
+				<div class='day'>
+					<a href="#agenda">Conference and FHIR Workshops</a>
+				</div>
+			</div>
+			<!-- Inactive Buttons -->
+			<a class="btn" href="#agenda">View<br>
+			Agenda</a> <!--<a class="btn" href="#abstract">Call for <br/>Quick FHIR Talks</a>-->
+			 <a class="btn" href="#materials">View<br>
+			Materials</a> <a class="btn" href="#updates">View<br>
+			Updates</a> <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSf9oe2q0n-zRLSolcWAOSAs6Q6c-6YXxF8jhP5AUUn2ZQfGYg/viewform?usp=sf_link" target="_blank">Register<br>
+			<i>Now Live!</i></a>
+
+			<p class="tagline" style="margin-bottom:1%;">Click here to join our <a href="https://docs.google.com/forms/d/e/1FAIpQLSf1MVRlhk1lHueVRsQ8LGY68eJG_IMfGI-9bt7jRTp7Tdz1gQ/viewform">Mailing List</a></p>
+
+
+			<div class="row logo-strip justify-content-center">
+				<div class="col-lg-2">
+					<a class="logo-container rounded" href='http://www.washington.edu/' target='_blank'><img class="align-self-center" src="../../img/logos/uw.png" style='max-width: 250px;'></a>
+				</div>
+
+
+				<div class="col-lg-2">
+					<a class="logo-container rounded" href='https://www.iths.org/' target='_blank'><img class="align-self-center" src="../../img/logos/iths.png" style='max-width: 250px;'></a>
+				</div>
+
+
+				<div class="col-lg-2">
+					<a class="logo-container rounded" href='https://nursing.uw.edu/' target='_blank'><img class="align-self-center" src="../../img/logos/uw-son.png"></a>
+				</div>
+
+
+				<div class="col-lg-2">
+					<a class="logo-container rounded" href='https://www.cirg.washington.edu/' target='_blank'><img class="align-self-center" src="../../img/logos/cirg.png" style='max-width: 128px;'></a>
+				</div>
+
+
+				<div class="col-lg-2">
+					<a class="logo-container rounded" href='https://www.doh.wa.gov/' target='_blank'><img class="align-self-center" src="../../img/logos/DOH.png" style='max-width: 128px;'></a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- About -->
+
+
+	<section class="about" id="about">
+		<div class="container text-center">
+			<h2>University of Washington FHIR<sup style="font-size: 0.6em;">&#174;</sup> Conference</h2>
+
+			<hr>
+
+
+			<div class='about-section'>
+				<h3><br>
+				Dates and Location</h3>
+
+
+				<p style="text-align:center;">September 11 - 12, 2020<br>
+				<a href="#agenda">Conference and FHIR Workshops</a><br>
+				<br>
+				Hosted remotely via Zoom<br>
+				<a href="https://support.zoom.us/hc/en-us/categories/200101697" target="_blank">Zoom Help + FAQs</a></p>
+
+				<hr>
+			</div>
+
+
+			<div class='about-section' id='goal'>
+				<h3><br>
+				For whom is this event intended?</h3>
+
+
+				<p>We invite faculty, staff, students, administrators, and software developers from clinical, research, and public health disciplines to learn about the healthcare data standard FHIR (Fast Healthcare Interoperability Resources), the related technologies of SMART and CDS Hooks, and their use in health informatics applications supporting both clinical care, research, and public health practice. Attendees will leave the conference with a foundational understanding for how to work within FHIR and an overview of how FHIR has been used to facilitate and manage healthcare innovation within healthcare organizations as well as research and public health settings.</p>
+
+
+				<p>We invite our colleagues from across the country, but with a particular emphasis on the Pacific Northwest and Seattle. This meeting will be particularly useful to those from healthcare organizations, academia and research, public health, and our local start-up scene, and especially those in the roles of health informaticians, IT professionals, managers, and aspiring clinical informatics developers.</p>
+
+				<hr>
+			</div>
+
+
+			<div class='about-section' id='overview'>
+				<h3>What is FHIR&#174; and why should I care?</h3>
+
+
+				<p>Fast Healthcare Interoperability Resources is a data standard for healthcare data developed by Health Level Seven International (HL7&#174;). Healthcare data that is stored using different formats and standards is a major problem facing healthcare organizations. The ability to share data between different organizations is limited; further, applications that work in one healthcare systems electronic health record (EHR) may not work in other organizations’ EHRs because of the differing data structures and standards.</p>
+
+
+				<p>FHIR is proving to be the best attempt at developing a unify data standard that will allow interoperability between institutions for data sharing. The end goal is to enable the EHR as a platform, much like the Apple or Android app stores, where any application developed to use FHIR data can be downloaded and used on any EHR that has adopted FHIR.</p>
+
+
+				<p>Closely related technologies such as SMART on FHIR and Clinical Quality Language (CQL) will also be discussed in the meeting and/or tutorials. SMART on FHIR is the set of tools that allow applications to be securely deployed inside of the EHR, enabling the “EHR as a platform” framework. Both web and native mobile apps can take advantage of single sign-on, patient context, user interface integration, and access to clinical data in the EHR. SMART on FHIR is the toolset you need to build extensions or apps within the EHR. CQL provides an ability to author both electronic clinical quality measures and clinical decision support logic. The promise is to have an EHR-independent way both to calculate on, and to reason on, clinical data, both in the moment to support the patient’s care, and retrospectively to improve measurement of health care delivery and outcomes.</p>
+
+				<hr>
+			</div>
+
+
+			<div class="about-section">
+				<h3>Who should attend?</h3>
+
+
+				<div class='row justify-content-md-center'>
+					<div class='col-md-8'>
+						<br>
+
+
+						<div id='agendaNote'>
+							If any of the following statements describe you, this conference may be of interest:
+						</div>
+
+
+						<ul>
+							<li>I want to develop apps that use clinical data</li>
+
+
+							<li>I use clinical data for research</li>
+
+
+							<li>I work in healthcare IT</li>
+
+
+							<li>I am a technical manager in a healthcare organization</li>
+
+
+							<li>I want to promote managed innovation in our healthcare organization</li>
+
+
+							<li>I am interested in public health implementation</li>
+						</ul>
+					</div>
+				</div>
+
+				<hr>
+			</div>
+
+
+			<div class='about-section' id='agenda'>
+				<div id='tutorial'>
+					<h3>FHIR Symposium Agenda: Friday 9/11</h3>
+
+
+					<p style="text-align: center;"><b>Conference Theme: Data &gt; Information &gt; Evidence &gt; Knowledge through FHIR</b>
+					</p>
+
+
+					<table style="width: 100%">
+						<tr id="mainheader">
+							<th>1:00 - 4:30</th>
+
+							<th colspan="2"><i>All Times Pacific (GMT-8h)</i>
+							</th>
+						</tr>
+
+
+						<tr>
+							<td rowspan="2">1:00 - 1:30<br>
+							<i><b>Pacific Time<br>
+							(GMT-8h)<b></b></b></i><b></b></td>
+
+							<td class='agenda-detail' colspan="2"><b>Welcome and Introduction to Tutorials</b><br>
+							</td>
+						</tr>
+
+
+						<tr>
+							<td class='agenda-detail text-left' style="background-color:#CBDBE1;"><b>Entry Level Track</b><br>
+							</td>
+
+							<td class='agenda-detail text-left' style="background-color:#FCE1C5;"><b>Intermediate Track</b><br>
+							</td>
+						</tr>
+
+
+						<tr>
+							<td>1:30 - 2:30</td>
+
+							<td class='agenda-detail text-left' style="background-color:#CBDBE1;"><b>Introduction to FHIR</b><br>
+							<br>
+							Presentation (30 min)<br>
+							So, what is FHIR, and how might you use it? A high level overview with something of interest for everyone, from students to the C-suite.<br>
+							<a href="#justinM">Justin McReynolds</a><br>
+							<br>
+							Hands on Experience with FHIR (30 min)<br>
+							ClinFHIR and interacting with a REST API <br>
+							<a href="#hannahB">Hannah Burkhardt</a><br></td>
+
+							<td class='agenda-detail text-left' style="background-color:#FCE1C5;"><b>Advanced Applications with FHIR</b><br>
+							<br>
+							Presentation (30 min)<br>
+							What are some systems that use FHIR? CQL - Smart on FHIR - CDS Hooks<br>
+							<a href="#maggieD">Maggie Dorr</a>, UW,<br>
+							<a href="#piotrM">Piotr Mankowski</a>, UW<br>
+							<br>
+							Introduction to CQL (30 min)<br>
+							A deeper dive into CQL
+							<br>
+							<a href="#maggieD">Maggie Dorr</a>, UW<br></td>
+						</tr>
+
+
+						<tr>
+							<td>2:30 - 2:45</td>
+
+							<td class='agenda-detail' colspan="2"><b>BREAK</b><br>
+							</td>
+						</tr>
+
+
+						<tr>
+							<td>2:45 - 4:30</td>
+
+							<td class='agenda-detail text-left' style="background-color:#CBDBE1;"><b>Applications with FHIR</b><br>
+							<br>
+							Building a BMI calculator using FHIR resources (retrieving and using FHIR resources)<br>
+							<a href="#hannahB">Hannah Burkhardt</a>, UW<br></td>
+
+							<td class='agenda-detail text-left' style="background-color:#FCE1C5;"><b>Large Scale Analytics with FHIR</b><br>
+							<br>
+							Building and using advanced analytics pipelines incorporating CQL, SMART on FHIR, and Bulk FHIR.<br>
+								<a href="#piotrM">Piotr Mankowski</a>, UW<br></td>
+						</tr>
+					</table>
+
+					<hr>
+
+
+					<h3 id='satAgenda'>FHIR Symposium Agenda: Saturday 9/12</h3>
+
+
+					<p style="text-align: center;"><b>Conference Theme: Data &gt; Information &gt; Evidence &gt; Knowledge through FHIR</b>
+					</p>
+
+
+					<table style="width: 100%">
+						<tr>
+							<td>8:30<br>
+							<i><b>Pacific Time<br>
+							(GMT-8h)</b></i><b></b></td>
+
+							<td class='agenda-detail text-left'><b>Arrival, informal networking<br>
+							Zoom link opens for general socializing in breakout rooms</b>
+							</td>
+						</tr>
+
+
+						<tr id="mainheader">
+							<th>9:00 - 1:00</th>
+
+							<th>Morning Session -- <i>All Times Pacific (GMT-8h)</i></th>
+						</tr>
+
+
+						<tr>
+							<td>9:00<br>
+							<i><b>Pacific Time<br>
+							(GMT-8h)</b></i><b></b></td>
+
+							<td class='agenda-detail text-left'>
+								<b>Getting FHIRed Up: Welcome and Opening Remarks</b><br>
+								<a href="#billL">Bill Lober</a> 
+								University of Washington
+<br><br>
+								Introduction to the workshop logistics, framework, and goals. Thoughts about FHIR innovation in academics, research, and public health practice.<br>
+
+							</td>
+						</tr>
+
+
+						<tr>
+							<td>9:15</td>
+
+							<td class='agenda-detail text-left'>
+								<b>FHIRing on all Cylinders: Public Health & Research Perspectives</b><br><br>
+								<b>FHIR initiatives and use cases in government and research for population health.</b><br>
+								<a href="#mariaM">Maria Michaels</a> 
+								Centers for Disease Control and Prevention<br>
+								<br>
+								FHIR can help facilitate the entire data lifecycle (i.e., action to data to information to knowledge and back to action). This session will demonstrate this through two major initiatives that focus on various parts of the data lifecycle.  Adapting Clinical Guidelines for the Digital Age – developing computable knowledge through an agile, integrated process using the (Clinical Practice Guidelines) CPG-on-FHIR implementation guide. Making EHR Data More Available for Research and Public Health (MedMorph) – improving how to get data from different EHR systems without posing additional burden on health care providers through a reliable, scalable, generalizable, configurable, interoperable method (i.e., reference architecture) to get EHR data for multiple public health and research use cases<br><br>
+							
+								<b>FHIR in the Research Community</b><br>
+								
+								<a href="#seanM">Sean Mooney</a> Chief Research Information Officer,  University of Washington Medicine<br>
+								<br>
+								Researchers tell us that they need better integration with academic health systems for the purposes of investigational studies. I will discuss the importance of strategy around governance, resources and technical capability. I will also discuss how the UW is preparing to be more collaborative and supportive of investigators who are innovation leaders and require health system support to be successful. I'll touch on national efforts and raise a challenge to better support investigation and the opportunity.
+							</td>
+						</tr>
+
+
+						<tr>
+							<td>10:15</td>
+
+							<td class='agenda-detail text-left'>
+								<b>Panel Session 1: 
+								FHIR in innovations and challenges for clinical care</b><br>
+								<br>
+								<b>Re-Imagining the EHR: The University of Utah Experience</b><br>
+								<a href="#kenK">Kensaku Kawamoto</a> 
+								University of Utah<br> 
+								<br>
+								The University of Utah’s ReImagine EHR initiative is a nation-leading FHIR-based digital health innovation program. It has deployed over 10 applications to date, several of which will be described in the presentation.
+								<br><br>
+								<b>UW Medicine Interoperability Platform – Enabling FHIR and API-led Development</b><br>
+								<a href="#kevinS">Kevin Swank</a>
+								 UW Medicine IT Services<br>
+								<br>
+								UW Medicine has funded and launched an API Management and Interoperability Platform Program to better meet ONC interoperability mandates and the needs of our clinicians and patients.  I will discuss the healthcare disruption and opportunities presented by FHIR, the impacts to the academic medical center enterprise IT landscape, and how this Program will address these challenges now.
+							</td>
+						</tr>
+
+
+						<tr>
+							<td>11:15</td>
+
+							<td class='agenda-detail text-left'>
+								<b>Panel Session 2: 
+								FHIR in public health and clinical decision support for opioids harm reduction</b><br>
+								<br>
+								<b>CDS Connect - AHRQ Clinical Pain Summary</b><br>
+								<a href="#chrisM">Chris Moesel</a> MITRE<br><br>
+								<b>Clinical Opioids Summary with Rx Integration (COSRI)</b><br>
+								<a href="#billL">Bill Lober</a>
+								University of Washington<br>
+								<br>
+								COSRI is an extension of the AHRQ Clinical Pain Summary app, with features added to support integration with the WA State Prescription Drug Monitoring Database (PMP). Bill will outline the onging work done to support production implementation of this CDS tool, and Jenney Lee will discuss our assessments of providers, and the incorporation of those findings into our work.
+								<br>
+							
+								<a href="#emilyM">Emily Mitchell</a>
+								Senior Manager, Accenture Federal Services<br>
+								<br>Accenture is supporting an ONC/CDC collaboration to advance and scale Prescription Drug Monitoring Program (PDMP) integration with health IT, including EHR integration and use of electronic Clinical Decision Support to support implementation of the CDC Guideline for Prescribing Opioids for Chronic Pain.  Emily Mitchell will give an overview of the project and the project’s collaboration with health care systems pilots.
+
+							</td>
+						</tr>
+
+
+						<tr>
+							<td>12:15 - 1:15</td>
+
+							<td class='agenda-detail text-left'><b>Lunch Break</b>
+							</td>
+						</tr>
+
+
+						<tr id="mainheader">
+							<th>1:15 - 5:00</th>
+
+							<th>Afternoon Session</th>
+						</tr>
+
+
+						<tr>
+							<td>1:15<br>
+							<i><b>Pacific Time<br>
+							(GMT-8h)</b></i><b></b></td>
+
+							<td class='agenda-detail text-left'>
+								<b>Panel Session 3: 
+							FHIR in electronic case reporting and COVID-19</b><br>
+								<br>
+								<b>eCR and COVID Reporting</b><br>
+								<a href="#johnL">John Loonsk</a> Johns Hopkins University<br>
+								At the start of COVID-19 electronic case reporting (eCR) had a compelling story, but only three trial implementations nationwide. Into this context, we began the “eCR Now” initiative. As a result, COVID-19 electronic case reporting is now operational in over 5000 healthcare sites nationally with more being added every week. The context for this explosive growth, the role of the eCR Now FHIR App, the eCR FHIR standards, the EHR FHIR API, and the needs of operationalizing a nationwide program in a time of standards transition will be discussed.
+								<br><br>
+								
+								<b>StayHome.app - a patient-centered, FHIR-native, COVID-19 app</b><br>
+								<a href="#hannahB">Hannah Burkhardt</a>
+								University of Washington<br>
+								As the COVID-19 pandemic continues to unfold and states experience the impacts of reopened economies, it is critical to efficiently manage new outbreaks through widespread testing and monitoring of both new and possible cases. Existing labor-intensive public health workflows may benefit from information collection directly from individuals through patient-reported outcomes (PROs) systems. We developed a reusable, mobile-friendly application for collecting PROs and experiences to support COVID-19 symptom self-monitoring and data sharing with appropriate public health agencies, using Fast Healthcare Interoperability Resources (FHIR) for interoperability.								
+							</td>
+
+						</tr>
+
+
+						<tr>
+							<td>2:15</td>
+
+							<td class='agenda-detail text-left'><b>FHIR Breakout Discussion Sessions</b><br><br>
+							You've done a lot of listening, and you might like to chat for a bit...  We can't do a coffee break, so we'll divide participants randomly into smaller groups (Zoom Breakout Rooms) after a brief orientation, give you a (sharable, editable) notes page, ask you to pick a topic or two, introduce yourselves, discuss, and take notes, or not, as you see fit. No official report-out, no pressure.  We'll post the note sheets, which can be blank, or carefully crafted.  Example topics might include: Barriers & Facilitators, FHIR-first Architectures, 21st Century Cures Act, etc</td>
+						</tr>
+
+
+						<tr>
+							<td>3:00</td>
+
+							
+							<td class='agenda-detail text-left'>
+								<b>Panel Session 4: 
+							Updates and Challenges in a Global Perspective</b><br>
+								<br>
+								<a href="#brynR">Bryn Rhodes</a> Database Consulting Group<br><br>
+								<a href="#janF">Jan Flowers</a> University of Washington <br><br>
+								<a href="#christinaW">Christina White</a> University of Washington <br><br>
+
+							A global health perspective on the future or FHIR, and what it will take to get there. Global health as an opportunity for CQL and computable logic<br>
+							<br>
+								
+							</td>
+
+						</tr>
+
+
+						<tr>
+							<td>4:00</td>
+
+							<td class='agenda-detail text-left'>
+								<b>Barriers to Adoption</b><br>
+								<a href="#lauraHM">Laura Marcial</a> RTI<br><br>
+
+								Shareable clinical decision support artifacts that leverage balloted and adopted FHIR resources (for instance, US Core or USCDI) are limited by the level of support provided (and conditions on access) to those FHIR resources in commercial EHRs. In addition, the current standards outlined by US Core and USCDI leave gaps, some more significant than others, that lead to challenges in implementation. EHR vendor support of FHIR services is variable in breadth, depth and quality, and bridging these gaps can sometimes be costly for customers. The ONC final rule has provided some motivation for EHR vendors to expand and update the FHIR support they provide for some data elements. We will discuss some challenges and recommendations focused on this gap between what is specified, what is allowed and what is implemented.<br><br>
+								<b>Closing Remarks</b><br>
+								<a href="#billL">Bill Lober</a> 
+								University of Washington<br>
+								
+							</td>
+						</tr>
+					</table>
+
+					<hr>
+				</div>
+			</div>
+
+
+			<div class='about-section' id='agenda'>
+				<div id='bios'>
+					<h3>Speaker/Planning Committee Bios</h3>
+
+
+					<table style="width: 100%">
+
+						<tr id="hannahB">
+							<td>
+								<h4>Hannah Burkhardt</h4>
+								University of Washington
+							</td>
+
+							<td class='agenda-detail text-left'>Hannah Burkhardt is a Ph.D. student in Biomedical and Health Informatics at the University of Washington, Seattle. A former software engineer, she is interested in standards-based technologies for health data interoperability as well as data science and machine learning for mental health informatics. Her current research with CIRG focuses on the use of FHIR for patient reported outcomes.
+ 
+							<br><br>
+							<a href="#agenda">return to agenda</a></td>
+						</tr>
+
+						<tr id="maggieD">
+							<td>
+								<h4>Maggie Dorr</h4>
+								University of Washington
+							</td>
+
+							<td class='agenda-detail text-left'> Maggie is a fifth year PhD student at the University of Washington studying Biomedical and Health Informatics with a data science option. Her primary research interests involve structured data extraction and transmission from electronic health records, and are currently focused on opioid-related clinical decision support. Other research interests include HL7 FHIR, machine learning, data management, and more. She has a Masters in Public Health (MPH) in Epidemiology from George Washington University, and a Bachelor of Science (BS) in Behavioral and Community Health from the University of Maryland.
+
+							<br><br>
+							<a href="#agenda">return to agenda</a></td>
+						</tr>
+						
+						<tr>
+							<td>
+								<h4 id="janF">Jan Flowers</h4>
+								University of Washington
+							</td>
+
+							<td class='agenda-detail text-left'>Jan Flowers is the Director of Global Health Informatics in the Clinical Informatics Research Group. She is focused on cutting edge strategies and technologies for healthcare systems strengthening in resource constrained settings through appropriate electronic collection and use of quality health data for evidence-based decision making.  Her interests include technology policy and law, health information systems evaluation, open source communities and health systems as global goods, health technology engineering and implementation, patient centered technologies and mHealth, and standards-based interoperability for improved care at the point of service, surveillance, and program monitoring.
+
+ 
+							<br><br>
+							<a href="#agenda">return to agenda</a></td>
+						</tr>
+
+						<tr>
+							<td>
+								<h4 id="lauraHM">Laura Haak Marcial</h4>
+								RTI International
+							</td>
+
+							<td class='agenda-detail text-left'>Laura Haak Marcial is a Health Informaticist at RTI International and Associate Project Director for the AHRQ-funded Clinical Decision Support for Chronic Pain Management (CDS4CPM) project. Dr. Marcial serves as the task lead on the development, implementation and piloting of the patient- and provider-facing SMART on FHIR based clinical decision support applications for ambulatory practice use that serve as the core components of the CDS4CPM project. The purpose of the CDS4CPM project is to develop, implement, disseminate, and evaluate clinical decision support (CDS) in the area of chronic pain management. More specifically, AHRQ is interested in CDS that is delivered through both clinician- and patient-facing channels and is interoperable and publicly-shareable. This project is leveraging the CPG-on-FHIR work, the Opioid IG work, SMART, FHIR and related tools and technologies to implement these CDS artifacts in two health systems.<br>
+							<br>
+							<a href="#agenda">return to agenda</a></td>
+						</tr>
+
+						<tr>						
+							<td>
+								<h4 id="kenK">Kensaku Kawamoto</h4>
+								University of Utah
+							</td>
+
+							<td class='agenda-detail text-left'>Kensaku Kawamoto, MD, PhD, MHS, FACMI, is Associate Chief Medical Information Officer of University of Utah Health and Vice Chair of Clinical Informatics in the University of Utah Department of Biomedical Informatics. At the University of Utah, Dr. Kawamoto leads the ReImagine EHR initiative, which is a multi-stakeholder effort to enable standards-based, interoperable applications and software services to improve health and health care. For his work on ReImagine EHR, Dr. Kawamoto was recognized by Modern Healthcare in 2019 as a Top 25 Innovator. Beyond the University of Utah, Dr. Kawamoto serves on the Board of Directors of Health Level 7 International (HL7), the primary standards development organization in health IT. Dr. Kawamoto is also a member of the U.S. Health IT Advisory Committee, which is the primary federal advisory body on health IT.<br>
+							<br>
+							<a href="#agenda">return to agenda</a></td>
+						</tr>
+
+						<tr id="jenneyL">
+							<td>
+								<h4>Jenney Lee</h4>
+								University of Washington
+							</td>
+
+							<td class='agenda-detail text-left'>
+								Jenney is a qualitative researcher with the UW Surgery Outcomes Research Center (SORCE), who frequently collaborates with the UW Clinical Informatics Research Group.  She has led many aspects of the conference planning, and has been deeply involved with our assessment and usability work with providers in WA State around opioid prescribing and data-driven decision making.
+								<br>
+								<br>
+								<a href="#agenda">return to agenda</a>
+							</td>
+						</tr>
+
+
+						<tr id="billL">
+							<td>
+								<h4>Bill Lober</h4>
+								University of Washington
+							</td>
+
+							<td class='agenda-detail text-left'>
+							Bill enjoys applying his clinical and technology expertise to address information management problems in clinical care, public health, and global health. And, he likes building systems that are used both within academics, to understand and evaluate new approaches and methods, and outside of academics, to deliver real world value. He received his MD/MS from the University of California, San Francisco and Berkeley. He completed a residency in Emergency Medicine at the University of Arizona, and the Royal Brisbane Hospital, Queensland, Australia, after which he joined the faculty of Emergency Medicine at University of Washington. With an NIH “mid-career” fellowship he found his way back to a 20 year research career in Applied Medical Informatics. Currently he is a Professor in Health Informatics and Global Health, jointly appointed in UW’s Schools of Nursing, Medicine, and Public Health, and directs the UW Clinical Informatics Research Group, <a href="https://cirg.washington.edu">cirg.washington.edu</a>. Bill appreciates John's comments, below, and reciprocates, noting that it's convenient that we're adjacent alphabetically. And that few people read bios.
+								<br>
+								<br>
+								<a href="#agenda">return to agenda</a>
+							</td>
+						</tr>
+
+						<tr>
+							<td>
+								<h4 id="johnL">John Loonsk</h4>
+								Johns Hopkins University
+							</td>
+
+							<td class='agenda-detail text-left'> John W. Loonsk MD FACMI is an adjunct associate professor in the Johns Hopkins Bloomberg School of Public Heath and the electronic case reporting lead for the Association of Public Health Laboratories (APHL). John has had to deal with Bill Lober for most of his professional career and yet still considers him a respected colleague and good personal friend.
+
+
+							<br><br>
+							<a href="#agenda">return to agenda</a></td>
+						</tr>
+
+
+						<tr>
+							<td>
+								<h4 id="piotrM">Piotr Mankowski</h4>
+								University of Washington
+							</td>
+
+							<td class='agenda-detail text-left'> 
+							<br><br>
+							<a href="#agenda">return to agenda</a></td>
+						</tr>
+
+						<tr>
+							<td>
+								<h4 id="justinM">Justin McReynolds</h4>
+								University of Washington
+							</td>
+
+							<td class='agenda-detail text-left'>My aim is to improve health by helping patients, healthcare professionals, and researchers leverage software engineering and informatics.  Much of my work is focused on engineering details, but I endeavor to understand the larger context of individual-driven health, clinical care, research, and population health - I'd like to address problems with tech appropriately, not amplify them. I've been a technical program manager with the University of Washington's <a href="https://cirg.washington.edu">Clinical Informatics Research Group</a> for the past dozen or so years, wearing many hats: team lead, engineer, designer, informaticist, budget and proposal developer, compliance officer, and perhaps most importantly, translator between engineers and stakeholders!  Much of my work is focused on individual-driven (consumer) health, and patient engagement in clinical care; I've built many variations of "patient reported outcomes" systems (eg https://paintracker.uwmedicine.org ), and tools (health interventions) based on them to help individuals and clinicians (eg https://p3p4me.org and https://us.truenth.org ).  Other key projects of mine include large scale data integrations (community health, HIV research, and syndromic surveillance of influenza), and diagnosis adjudication platforms.  Systems interfacing is a goal common to most of my projects; my current toolset there includes FHIR and SMART on FHIR, and more established tech like HL7 v2 and CCDA.  I'm excited by patient/consumer-directed initiatives such as openmhealth.org and carinalliance.com.
+							<br><br>
+							<a href="#agenda">return to agenda</a></td>
+						</tr>
+						
+						<tr>
+							<td>
+								<h4 id="mariaM">Maria Michaels</h4>
+								Centers for Disease Control and Prevention
+							</td>
+
+							<td class='agenda-detail text-left'>Maria Michaels is a Public Health Advisor at CDC, bringing health IT, health care, and research perspectives. She has served as Technical Lead/Program Manager for HITECH Clinical Quality Measure Policy and Operations at CMS and as Program Manager at NCI’s Cancer Human Biobank as well as with the health systems of Virginia Commonwealth University, where she directed Meaningful Use, and the Johns Hopkins University, where she developed and managed a large research program. She holds a BS in Biology and BS in Psychology from Virginia Commonwealth University, MBA from Johns Hopkins University, and a PMP from the Project Management Institute. She has traveled to all seven continents.
+							<br>
+							<br>
+							<a href="#agenda">return to agenda</a></td>
+						</tr>
+
+
+						<tr>
+							<td>
+								<h4 id="emilyM">Emily Mitchell</h4>
+								Senior Manager, Accenture Federal Services
+
+
+							</td>
+
+							<td class='agenda-detail text-left'>Emily Mitchell is a Senior Manager within Accenture Federal Services Health practice. Emily has 18+ years of experience providing consulting services to public service and private clients with a primary focus on program management and team leadership.  Emily currently serves as the Project Director for the Advancing Prescription Drug Monitoring Program (PDMP) and Electronic Health Records (EHR) Integration project; a collaboration between the Office of the National Coordinator for Health IT (ONC) and the Centers for Disease Control and Prevention (CDC).  Emily has led Accenture’s work with ONC since 2011, including support for ONC’s Standards & Interoperability Framework and ONC’s Patient-Generated Health Data (PGHD) project.
+
+ 
+							<br><br>
+							<a href="#agenda">return to agenda</a></td>
+						</tr>
+
+						<tr>
+							<td>
+								<h4 id="chrisM">Chris Moesel</h4>
+								Mitre
+							</td>
+
+							<td class='agenda-detail text-left'>Chris Moesel is a Principal Software Engineer at MITRE, with a focus on software that supports and leverages health information technology standards. Chris is a technical lead for the Agency for Healthcare Research and Quality's (AHRQ) CDS Connect project and a co-author of the HL7 Clinical Quality Language (CQL) specification.  Chris is also co-author of the new HL7 FHIR Shorthand (FSH) specification and technical lead of the development team implementing SUSHI, a FSH compiler.
+
+ 
+							<br><br>
+							<a href="#agenda">return to agenda</a></td>
+						</tr>						
+						
+						<tr>
+							<td>
+								<h4 id="seanM">Sean Mooney</h4>
+								University of Washington
+							</td>
+
+							<td class='agenda-detail text-left'>Professor Sean Mooney, a geneticist and informaticist, is the first Chief Research Information Officer (CRIO) for UW Medicine and as a Professor in the Department of Biomedical Informatics and Medical Education at the University of Washington. He also leads informatics for the Institute of Translational Health Sciences at the UW. Throughout his career, he has been an author on more than 100 publications, given more than 120 invited seminars and helped write the proposals of well over $100 million in funding. He has won several awards and accolades for his work. While at the University of California San Francisco, he won the annual Frank M. Goyan Award for research in physical chemistry. He was part of the team that won the $150k Grand Prize in the Garage.com PlanEDU Business Plan Competition in 2000 and his team was featured on CNN and in BusinessWeek.<br>
+							<br>
+							In 1997, he received his B.S. with Distinction in Biochemistry and Molecular Biology from the University of Wisconsin at Madison. Then receiving a Ph.D. in 2001 at the University of California in San Francisco, and then an American Cancer Society John Peter Hoffman Fellowship at Stanford University. While he was at Stanford University, he was the co-founder of communities, including BioE2E, a nonprofit organization which focused on enabling biomedical entrepreneurship in silicon and biotech valley in the Bay Area. As an Assistant Professor, he was appointed in Medical and Molecular Genetics at Indiana University School of Medicine from 2004-2009 (where he received tenure) and was founder and director of the Indiana University School of Medicine Bioinformatics Core. He was an Associate Professor and Director of Bioinformatics at the Buck Institute for Research on Aging in Marin County, California from 2009-2015. Outside of work, Sean spends as much time outdoors as he can, he has bicycled across the United States twice, climbed Mt Rainier and Mt Baker, and hiked extensively in the United States and Europe.
+							<br>
+							<br>
+							<a href="#agenda">return to agenda</a></td>
+						</tr>
+						
+						<tr>
+							<td>
+								<h4 id="brynR">Bryn Rhodes</h4>
+								Database Consulting Group
+							</td>
+
+							<td class='agenda-detail text-left'>Bryn Rhodes has been a software developer for 20 years, with most of his career focusing on information and database management systems and applications for a broad range of industries. Bryn has been involved in architecture and implementation of everything from hospital payroll systems to web scale real-time clinical decision support systems. He has spent the last several years as a member of the Health eDecisions and Clinical Quality Framework Initiatives (CQF) working on the problem of sharing executable clinical knowledge and is currently working on bringing the standards that have been developed in the CQF initiative to FHIR.
+ 
+							<br><br>
+							<a href="#agenda">return to agenda</a></td>
+						</tr>
+												<tr>
+							<td>
+								<h4 id="kevinS">Kevin Swank</h4>
+								UW Medicine IT Services
+							</td>
+
+							<td class='agenda-detail text-left'>Kevin Swank is a UW Medicine Enterprise Integration Architect implementing interoperability platforms for the health system's clinical and financial transformation programs.  Kevin has over 30 years of IT consulting experience in highly regulated environments - including 17 years at the Mayo Clinic in Rochester, MN and the last 3 years at UW Medicine in Seattle, WA.  Kevin is a Smart on FHIR and API-led development evangelist and has worked on national FHIR efforts - like Argonaut.  He is currently implementing an API Management platform and an API-led development program to be used internally and externally across UW Medicine and its collaboration partners.  Kevin is a certified Enterprise Architect and a Project Management Professional.
+
+<br>
+							<br>
+							<a href="#agenda">return to agenda</a></td>
+						</tr>
+
+						<tr>
+							<td>
+								<h4 id="christinaW">Christina White</h4>
+								University of Washington
+							</td>
+
+							<td class='agenda-detail text-left'> 
+							<br><br>
+							<a href="#agenda">return to agenda</a></td>
+						</tr>
+						
+					</table>
+					<hr>
+				</div>
+			</div>
+
+
+			<div class='about-section' id='materials'>
+				<h3>Conference Materials</h3>
+
+
+				<div class='row justify-content-md-center'>
+					<p>Any materials needed during the conference</p>
+				</div>
+				<a class="btn" href="https://docs.google.com/document/d/1wfXQGrK0I365XXYZ-_PH8HXFU54ngu4z7HfYu0aTWs4/edit?usp=sharing">Breakout Session<br>
+				Discussion Notes</a> <!--<a class="btn" href="detail/index.html">Agenda Details and<br>Speaker Bios</a>-->
+
+				<hr>
+			</div>
+
+
+			<div class='about-section' id='updates'>
+				<h3>Logistics Updates</h3>
+				<iframe src="https://docs.google.com/document/d/e/2PACX-1vRkfa5KzvzxeeU8pYXCXSAJBhTqxYIBqzC5oAlzf-NSB3n1s7YhiJlAdgm4ZrrgPcAPWOXNqSEnseWO/pub?embedded=true" style="width: 100%; height: 20em"></iframe>
+
+				<hr>
+			</div>
+
+
+			<div class='about-section' id='organization'>
+				<div class='row justify-content-md-center'>
+					<div class='col-md-8'>
+						<h3>Lead Organizations</h3>
+
+
+						<ul>
+							<li>University of Washington FHIR group</li>
+
+
+							<li>Washington State Department of Health</li>
+						</ul>
+						<br>
+
+
+						<h3>Organizing Committee</h3>
+
+
+						<ul>
+							<li>Bill Lober MD MS, Sean Mooney PhD</li>
+
+
+							<li class='small text-muted'>University of Washington Faculty</li>
+
+
+							<li>Tim Bergquist, Maggie Dorr MPH, Nick Reid MHI</li>
+
+
+							<li class='small text-muted'>PhD Students, UW Biomedical and Health Informatics</li>
+
+
+							<li>Jenney Lee MA</li>
+
+
+							<li class='small text-muted'>University of Washington Research Staff</li>
+
+
+							<li>Bryant Karras MD, Chris Baumgartner</li>
+
+
+							<li class='small text-muted'>Washington Department of Health</li>
+
+
+							<li>Becky Lampkins MPH</li>
+
+
+							<li class='small text-muted'>Council of State and Territorial Epidemiologists</li>
+						</ul>
+						<br>
+
+
+						<h3>Sponsors</h3>
+
+
+						<ul>
+							<li>UW Institute for Translational Health Sciences</li>
+
+
+							<li>UW Dept of Biobehavioral Nursing and Health Informatics</li>
+
+
+							<li>UW Clinical Informatics Research Group</li>
+							<!--<li>CIRG? ITHS?</li>-->
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="sponsors container" id="sponsors">
+		<div class="row logo-strip justify-content-center">
+			<div class="col-lg-2">
+				<a class="logo-container rounded" href='http://www.washington.edu/' target='_blank'><img class="align-self-center" src="../../img/logos/uw.png" style='max-width: 250px;'></a>
+			</div>
+
+
+			<div class="col-lg-2">
+				<a class="logo-container rounded" href='https://www.iths.org/' target='_blank'><img class="align-self-center" src="../../img/logos/iths.png" style='max-width: 250px;'></a>
+			</div>
+
+
+			<div class="col-lg-2">
+				<a class="logo-container rounded" href='https://nursing.uw.edu/' target='_blank'><img class="align-self-center" src="../../img/logos/uw-son.png"></a>
+			</div>
+
+
+			<div class="col-lg-2">
+				<a class="logo-container rounded" href='https://www.cirg.washington.edu/' target='_blank'><img class="align-self-center" src="../../img/logos/cirg.png" style='max-width: 128px;'></a>
+			</div>
+
+
+			<div class="col-lg-2">
+				<a class="logo-container rounded" href='https://www.doh.wa.gov/' target='_blank'><img class="align-self-center" src="../../img/logos/DOH.png" style='max-width: 128px;'></a>
+			</div>
+		</div>
+
+
+		<div class="row justify-content-center" style="text-align: center;">
+			<footer class='col-lg-8 col-sm-12'>
+				HL7® and FHIR® are registered trademarks of Health Level Seven International. The use of these trademarks do not constitute a product endorsement by HL7.
+			</footer>
+		</div>
+	</section>
+
+
+	<section id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<h2 class="section-title"><a href='https://forms.gle/HKbj5axwBKRPWtgN7'>Contact Us!</a>
+					</h2>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<footer class="site-footer">
+		<div class="bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-xs-12 text-lg-left text-center">
+						<p class="copyright-text">© BELL Theme</p>
+
+
+						<div class="credits">
+							<!--
+             All the links in the footer should remain intact.
+             You can delete the links only if you purchased the pro version.
+             Licensing information: https://bootstrapmade.com/license/
+             Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Bell
+            -->
+							Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<a class="scrolltop" href="#"><span class="fa fa-angle-up"></span></a> <!-- Vue.js -->
+	 
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js">
+	</script> <!-- Required JavaScript Libraries -->
+	 
+	<script src="../../lib/jquery/jquery.min.js">
+	</script> 
+	<script src="../../lib/jquery/jquery-migrate.min.js">
+	</script> 
+	<script src="../../lib/superfish/hoverIntent.js">
+	</script> 
+	<script src="../../lib/superfish/superfish.min.js">
+	</script> 
+	<script src="../../lib/tether/js/tether.min.js">
+	</script> 
+	<script src="../../lib/stellar/stellar.min.js">
+	</script> 
+	<script src="../../lib/bootstrap/js/bootstrap.bundle.min.js">
+	</script> 
+	<script src="../../lib/counterup/counterup.min.js">
+	</script> 
+	<script src="../../lib/waypoints/waypoints.min.js">
+	</script> 
+	<script src="../../lib/easing/easing.js">
+	</script> 
+	<script src="../../lib/stickyjs/sticky.js">
+	</script> 
+	<script src="../../lib/parallax/parallax.js">
+	</script> 
+	<script src="../../lib/lockfixed/lockfixed.min.js">
+	</script> <!-- Template Specisifc Custom Javascript File -->
+	 
+	<script src="../../js/custom.js">
+	</script>
+</body>
+</html>
